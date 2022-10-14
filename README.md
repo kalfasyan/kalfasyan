@@ -11,6 +11,6 @@
 
 ### Contact
 
-🌱 I’m always interested to learn about how Artificial Intelligence can improve the lives of the many (not the few 😉)  
+🌱 I’m always interested to learn about how Artificial Intelligence can improve the lives of the many (not the few!)  
 💬 Do you want to reach out?  
 📫 Send an email at kalfasyan[at]gmail[dot]com  
