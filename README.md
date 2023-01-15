@@ -14,3 +14,6 @@
 🌱 I’m always interested to learn about how Artificial Intelligence can improve our lives.  
 💬 Do you want to reach out?  
 📫 Send an email at kalfasyan[at]gmail[dot]com or at ioannis[dot]kalfas[at]kuleuven[dot]be
+
+## Note:
+I've been using KU Leuven's GitLab more and more. Here's [my profile](https://gitlab.kuleuven.be/u0107087)!
