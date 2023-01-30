@@ -7,7 +7,7 @@
 
 🪰 I then went back to KU Leuven to do more applied research and obtain my PhD in Bioscience Engineering 🎓 At MeBioS, KU Leuven, where I am now employed as a Post-doctoral researcher, I am utilizing Machine Learning to build intelligent automated insect-monitoring systems that demand high real-world performance based on data gathered by optical sensors.In addition, I perform research on hyperspectral imaging and supervise the theses of doctoral and master's level students. My participation to each project spans numerous phases, from data collection and annotation through data analysis and model development. 
 
-💻 The next step is to get a deeper understanding of MLOps tools and techniques while delivering my trained models to the cloud or embedding them in field agricultural devices (e.g., insect traps or imaging setups). 📈
+💻 The next step is to get a deeper understanding of MLOps tools and techniques while delivering my trained models to the cloud or embedding them in field agricultural devices (e.g., insect traps or imaging setups). Apart from that, I am learning Hyperspectral Imaging techniques to be able to model multi-dimensional data more efficiently. 📈
 
 ### Contact
 
