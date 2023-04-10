@@ -1,4 +1,6 @@
-## Hi 👋
+## Hi 👋  
+[GitLab profile](https://gitlab.kuleuven.be/u0107087)  
+  
 ### Some things about me  
   
 🧠 With a broad scientific background in computer science and machine learning, I have gained invaluable experience through my diverse research and work experiences. Working as a PhD researcher in Group Neurophysiology at KU Leuven for 2 years, I conducted extensive research on deep Convolutional Neural Networks and their similarities with the visual system. Then, I transitioned to the role of Data Scientist at Faktion, a startup in Antwerp. During my tenure, I gained proficiency in various industry practices and applications, including setting up end-to-end ML pipelines, training models for AI tasks, creating deployable Docker containers, and working with Cloud components. I also participated in two hackathons and was proud to win one of them. 📊 
