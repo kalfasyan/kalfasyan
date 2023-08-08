@@ -1,7 +1,8 @@
 ## Hi 👋  
-[GitLab profile](https://gitlab.kuleuven.be/u0107087)  
+First things first, some personal promo :)  
+Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia) and my latest [streamlit app](http://35.206.156.69:8501/) for image processing.  
   
-### Data Scientist and Researcher in Pattern Recognition 👨‍💻 
+### Bio - Data Scientist / Researcher / Machine Learning Engineer 👨‍💻 
 
 With a solid scientific background in computer science and machine learning, I have gained invaluable experience through diverse research and work roles. 💼  
 
