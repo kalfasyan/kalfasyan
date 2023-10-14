@@ -1,6 +1,6 @@
 ## Hi 👋  
 First things first, some personal promo :)  
-Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia) and my latest [streamlit app*](http://35.206.156.69:8501/) for image processing.  
+Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia) and my latest [streamlit app](https://basic-image-processing.streamlit.app/) for image processing.  
   
 ### Bio - Data Scientist / Researcher / Machine Learning Engineer 👨‍💻  
 
@@ -47,7 +47,3 @@ By staying up-to-date with technological advancements, my commitment is to make 
 📲 LinkedIn: [/in/kalfasyan](https://www.linkedin.com/in/kalfasyan/)  
 📲 GitHub: [/kalfasyan](https://github.com/kalfasyan/)  
   
-## Note:
-
-
-\* If the app is unreachable, it's most likely because I deactivate it to save on costs :) I can always switch it back on upon request.
