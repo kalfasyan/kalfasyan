@@ -1,6 +1,6 @@
 ## Hi 👋  
 First things first, some personal promo :)  
-Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia) and my latest [streamlit app](https://basic-image-processing.streamlit.app/) for image processing.  
+Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia) and my latest streamlit app demos for [#image](https://basic-image-processing.streamlit.app/) and [#signal](https://basic-signal-processing.streamlit.app/) for processing.  
   
 ### Bio - Data Scientist / Researcher / Machine Learning Engineer 👨‍💻  
 
