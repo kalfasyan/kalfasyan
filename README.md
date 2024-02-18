@@ -1,10 +1,10 @@
-## Hi 👋  
-First things first, some personal promo :)  
-Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia) and my latest streamlit app demos for [#image](https://basic-image-processing.streamlit.app/) and [#signal](https://basic-signal-processing.streamlit.app/) for processing.  
+## Hi 👋 welcome,  
+Here you can find a brief, yet complete, overview of my background. First things first, some personal promo! 😎  
+My work GitLab [public profile](https://gitlab.kuleuven.be/u0107087). Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia) and my latest streamlit app demos for [#image](https://basic-image-processing.streamlit.app/) and [#signal](https://basic-signal-processing.streamlit.app/) for processing. Let me know if they're sleeping :)  
   
 ### Bio - Data Scientist / Researcher / Machine Learning Engineer 👨‍💻  
 
-With a solid scientific background in computer science and machine learning, I have gained invaluable experience through diverse research and industry roles. 💼  
+TL;DR: A Greek computational scientist specializing in AI & ML, combining backgrounds in Computer Science, Machine Learning, and Bioscience Engineering. With hands-on experience in analyzing neurophysiological data using Neural Networks and developing AI software solutions in a startup, currently serving as a Postdoc Researcher at KU Leuven's MeBioS Biophotonics Group, continuing after PhD tenure, overseeing insect monitoring and agrifood projects, mentoring PhD researchers, MSc/BSc students, managing lab's Data and Software ([#ManGO](https://rdm-docs.icts.kuleuven.be/mango/index.html), [#Gitlab](https://gitlab.kuleuven.be/mebios-dl)), plus fostering AI adoption across diverse present and potential future projects.  
 
 #### 🎓 Studies 
 I studied Computer Science in the Aristotle University of Thessaloniki (Greece 🇬🇷) earning a solid basis around computing theory. Next, I finished my Master's in [Machine Learning at KTH University](https://www.kth.se/profile/ikalfas) (Stockholm, Sweden 🇸🇪) specializing in Computational Neuroscience (Spiking Neural Networks). For my [thesis](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&dswid=-157) work, I simulated a small piece of the neocortex using the [NEST simulator in Python](https://nest-simulator.readthedocs.io/en/stable/index.html) to compare various [columnar structure types](https://en.wikipedia.org/wiki/Cortical_column) and their activity.  
