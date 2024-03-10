@@ -1,5 +1,5 @@
 ## Hi 👋 welcome,  
-Here you can find a brief, yet complete, overview of my background. First things first, some personal promo! 😎  
+Here you can find a brief, yet complete, overview of my background. For a summary of links to various online profiles, you can check out my [linkedtree](https://linktr.ee/kalfasyan). First things first, some personal promo! 😎  
 My work GitLab [public profile](https://gitlab.kuleuven.be/u0107087). Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia) and my latest streamlit app demos for [#image](https://basic-image-processing.streamlit.app/) and [#signal](https://basic-signal-processing.streamlit.app/) for processing. Let me know if they're sleeping :)  
   
 ### Bio - Data Scientist / Researcher / Machine Learning Engineer 👨‍💻  
