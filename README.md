@@ -25,7 +25,7 @@ The main objectives of my research were around data-centric AI and strict model 
 #### 🦾 Postdoctoral Researcher at MeBioS, KUL
 As a Postdoctoral researcher at MeBioS (KUL), I got involved in multiple projects around AI in insect monitoring or agrifood applications. I guided PhD researchers and built software tools that aided in their research. Being more involved in Hyperspectral Imaging ([#HSI]()) projects, I familiarized myself with SOTA techniques to deal with complex hypercube data using AI. Moreover, I was the research data and software manager for our lab, being responsible on hosting and sharing our software/data using KUL's infrastructure and maintaining our research group's [#GitLab]() (here's [its public profile](https://gitlab.kuleuven.be/mebios-dl), where you can see some of its content).  
   
-#### 🛰️ Remote Sensing & AI Researcher
+#### 🛰️ Remote Sensing & AI Researcher at Vito
 Now, I'm taking my expertise to new heights as a remote sensing & AI researcher at Vito. My current role involves classifying the earth's land cover in a reliable and accurate way through the LCFM project of the EU commission (JRC). This important work has real-world applications for environmental conservation, land use planning, and climate change mitigation.  
 
 By staying up-to-date with technological advancements, my commitment is to make meaningful contributions to the field of pattern recognition. Let's collaborate to create practical solutions that have a real impact!  🔧  
