@@ -33,15 +33,15 @@ By staying up-to-date with technological advancements, my commitment is to make 
 ### Contact
 
 🌱 I’m always interested to learn about how Artificial Intelligence can improve our lives.  
-💬 Do you want to reach out?  
-📫 Send an email at kalfasyan[at]gmail[dot]com or at ioannis[dot]kalfas[at]kuleuven[dot]be
+💬 Do you want to reach out? Send an email at kalfasyan[at]gmail[dot]com  
+🔗 Check my [linktr.ee](https://linktr.ee/kalfasyan)  
   
-📚 Additionally, you can find my publications and research work on Google Scholar and ResearchGate:  
-🔬 Google Scholar: [profile link](https://scholar.google.com/citations?user=WXHakDkAAAAJ&hl=en)  
-📖 ResearchGate: [profile link](https://www.researchgate.net/profile/Ioannis-Kalfas-2)  
+📚 Researcher profiles:  
+🧬 [orc-id](https://orcid.org/0000-0002-9957-1502)  
+🔬 [Google Scholar](https://scholar.google.com/citations?user=WXHakDkAAAAJ&hl=en)  
+📖 [ResearchGate](https://www.researchgate.net/profile/Ioannis-Kalfas-2)  
   
-🌐 Stay connected and explore more of my work through the following social media channels:  
-📲 Twitter: [/kalfasyan](https://twitter.com/kalfasyan)  
-📲 LinkedIn: [/in/kalfasyan](https://www.linkedin.com/in/kalfasyan/)  
-📲 GitHub: [/kalfasyan](https://github.com/kalfasyan/)  
-  
+🌐 Stay connected through the following social media channels:  
+📲 [X/Twitter](https://twitter.com/kalfasyan)  
+📲 [LinkedIn](https://www.linkedin.com/in/kalfasyan/)  
+📲 [GitHub](https://github.com/kalfasyan/)  
