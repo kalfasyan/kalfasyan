@@ -2,7 +2,7 @@
 Here you can find a brief, yet complete, overview of my background. For a summary of links to various online profiles, you can check out my [linktree](https://linktr.ee/kalfasyan). First things first, some personal promo! 😎  
 My work GitLab [public profile](https://gitlab.kuleuven.be/u0107087). Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia) and my latest streamlit app demos for [#image](https://basic-image-processing.streamlit.app/) and [#signal](https://basic-signal-processing.streamlit.app/) for processing. Let me know if they're sleeping :)  
   
-### Bio - Data Scientist / Researcher / Machine Learning Engineer 👨‍💻  
+### Bio - AI & Machine Learning Research Scientist 👨‍💻  
 
 **TL;DR:** A computational scientist specializing in AI & ML, combining backgrounds in Computer Science, Machine Learning, and Bioscience Engineering. With hands-on experience in analyzing neurophysiological data using Neural Networks and developing AI software solutions in a startup, I served as a Postdoc Researcher at KU Leuven's MeBioS Biophotonics Group, continuing after PhD tenure, overseeing insect-monitoring and agri-food projects, mentoring PhD researchers, MSc/BSc students, managing the lab's data and software, plus fostering AI adoption across diverse present and potential future projects. Now, I'm taking my expertise to new heights as a remote sensing & AI researcher at Vito. My current role involves classifying the earth's land cover in a reliable and accurate way through the LCFM project of the EU commission (JRC). This important work has real-world applications for environmental conservation, land use planning, and climate change mitigation.
 
