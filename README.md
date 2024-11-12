@@ -1,6 +1,6 @@
 ## Hi 👋 welcome,  
-Here you can find a brief, yet complete, overview of my background. For a summary of links to various online profiles, you can check out my [linktree](https://linktr.ee/kalfasyan). First things first, some personal promo! 😎  
-Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia) and my latest streamlit app demos for [#image](https://basic-image-processing.streamlit.app/) and [#signal](https://basic-signal-processing.streamlit.app/) for processing. Let me know if they're sleeping :)  
+Here you can find a brief, yet complete, overview of my background. For a summary of links to various online profiles, you can check out my [linktree](https://linktr.ee/kalfasyan).  
+Check out my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia)  
   
 ### Bio - AI & Machine Learning Research Scientist 👨‍💻  
 
