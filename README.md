@@ -42,6 +42,6 @@ By staying up-to-date with technological advancements, my commitment is to make 
 📖 [ResearchGate](https://www.researchgate.net/profile/Ioannis-Kalfas-2)  
   
 🌐 Stay connected through the following social media channels:  
-📲 [X/Twitter](https://twitter.com/kalfasyan)  
+📲 [Bluesky](https://bsky.app/profile/kalfasyan.bsky.social)  
 📲 [LinkedIn](https://www.linkedin.com/in/kalfasyan/)  
 📲 [GitHub](https://github.com/kalfasyan/)  
