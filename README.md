@@ -1,6 +1,6 @@
 ## Professional Profile  
 Here you can find a brief, yet complete, overview of my background. For a summary of links to various online profiles, you can check out my [linktree](https://linktr.ee/kalfasyan).  
-My image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia)  
+Also, feel free to have a look at my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia)  
   
 ### AI & Machine Learning Research Scientist  
 
