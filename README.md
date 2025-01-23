@@ -3,9 +3,12 @@ Here you can find a brief, yet complete, overview of my background. For a summar
 Also, feel free to have a look at my image tiling library [`plakakia`](https://github.com/kalfasyan/plakakia)  
   
 ### AI & Machine Learning Research Scientist  
-
+  
 A multidisciplinary computational scientist at the intersection of AI, Machine Learning, and Bioscience Engineering, with a proven track record of translating cutting-edge research into impactful technological solutions. Leveraging advanced expertise in Neural Networks, computer vision, and data-centric AI, I specialize in developing innovative research and applied AI software solutions across domains—from neurophysiological data analysis to environmental monitoring. My professional journey spans academic research, industry applications, and strategic AI implementation, with a consistent focus on driving meaningful technological advancements that address real-world challenges.  
-
+  
+----
+### Background
+  
 ### 🎓 Studies 
 I studied Computer Science in the Aristotle University of Thessaloniki (Greece 🇬🇷) earning a solid basis around computing theory. Next, I finished my Master's in [Machine Learning at KTH University](https://www.kth.se/profile/ikalfas) (Stockholm, Sweden 🇸🇪) specializing in Computational Neuroscience (Spiking Neural Networks). For my [thesis](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&dswid=-157) work, I simulated a small piece of the neocortex using the [NEST simulator in Python](https://nest-simulator.readthedocs.io/en/stable/index.html) to compare various [columnar structure types](https://en.wikipedia.org/wiki/Cortical_column) and their activity. My academic journey continued with two years of research in a neurophysiology lab, exploring computational neuroscience. While I did not complete the initial PhD program, I subsequently earned a PhD in Bioscience Engineering, pivoting my research to focus on optical insect identification using artificial intelligence.  
 
