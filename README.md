@@ -39,9 +39,9 @@ As a Postdoctoral researcher at MeBioS (KUL), I got involved in multiple project
 #### Remote Sensing & AI Researcher at Vito 🛰️  
 Keywords: *Earth Observation, Environmental Monitoring, EU Projects, Sustainable Development, Geospatial Analysis, Cloud Services, Hadoop, Spark, AWS*  
   
-Now, I'm taking my expertise to new heights as a remote sensing & AI researcher at Vito. My current role involves classifying the earth's land cover in a reliable and accurate way through the LCFM project of the EU commission (JRC). This important work has real-world applications for environmental conservation, land use planning, and climate change mitigation. In this role, I leverage hyperspectral satellite data, computer vision techniques, and machine learning models to analyze and interpret complex environmental data. By integrating these advanced technologies, I contribute to the development of innovative solutions for monitoring and managing our planet's resources more effectively.  
+Now, I'm taking my expertise to new heights as a remote sensing & AI researcher at Vito. My current role involves classifying the earth's land cover in a reliable and accurate way through the [LCFM project of the EU commission (JRC)](https://remotesensing.vito.be/services/copernicus-lcfm), which continues the very successful work done for the [ESA Worldcover products](https://esa-worldcover.org/en). This important work has real-world applications for environmental conservation, land use planning, and climate change mitigation. In this role, I leverage hyperspectral satellite data, computer vision techniques, and machine learning models to analyze and interpret complex environmental data. By integrating these advanced technologies, I contribute to the development of innovative solutions for monitoring and managing our planet's resources more effectively.  
 
-By staying up-to-date with technological advancements, my commitment is to make meaningful contributions to the field of pattern recognition. Let's collaborate to create practical solutions that have a real impact!  🔧  
+For an overview of Land Cover Mapping projects and their applications have a look at this well-structured [blog post](https://landcarbonlab.org/insights/global-land-cover-maps-accuracy-applications/) by the Land Carbon Lab.  
 
 ### Contact
 
