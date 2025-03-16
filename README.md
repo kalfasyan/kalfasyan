@@ -60,9 +60,4 @@ For an overview of Land Cover Mapping projects and their applications have a loo
 📲 [BLUESKY](https://bsky.app/profile/kalfasyan.bsky.social)  
 📲 [LINKEDIN](https://www.linkedin.com/in/kalfasyan/)  
 📲 [GITHUB](https://github.com/kalfasyan/)  
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=kalfasyan&theme=vue&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=kalfasyan&theme=vue&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=kalfasyan&theme=vue&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
   
