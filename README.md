@@ -1,4 +1,4 @@
-## AI & Machine Learning Research Scientist  
+## AI Engineer & Machine Learning Research Scientist  
 *For a summary of links to various online profiles, you can check out my [linktree](https://linktr.ee/kalfasyan).*  
 
 A multidisciplinary computational scientist at the intersection of AI, Machine Learning, and Bioscience Engineering, with a proven track record of translating cutting-edge research into impactful technological solutions. Leveraging advanced expertise in Neural Networks, computer vision, and data-centric AI, I specialize in developing innovative research and applied AI software solutions across domains—from neurophysiological data analysis to remote sensing and environmental monitoring. My professional journey spans academic research, industry applications, and strategic AI implementation, with a consistent focus on driving meaningful technological advancements that address real-world challenges.  
