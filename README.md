@@ -5,6 +5,20 @@ A multidisciplinary computational scientist at the intersection of AI, Machine L
   
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) 
 
+### Contact
+
+🌱 I’m always interested to learn about how Artificial Intelligence can improve our lives.  
+💬 Do you want to reach out? Send an email at kalfasyan[at]gmail[dot]com  
+🔗 Check my [linktr.ee](https://linktr.ee/kalfasyan)  
+  
+📚 Researcher profiles:  
+🧬 [orcid](https://orcid.org/0000-0002-9957-1502)  
+🔬 [scholar](https://scholar.google.com/citations?user=WXHakDkAAAAJ&hl=en)  
+📖 [researchgate](https://www.researchgate.net/profile/Ioannis-Kalfas-2)  
+  
+🌐 Stay connected through the following social media channels: [bluesky](https://bsky.app/profile/kalfasyan.bsky.social), [linkedin](https://www.linkedin.com/in/kalfasyan/), [github](https://github.com/kalfasyan/)  
+  
+
 ----
 ### Background
   
@@ -45,19 +59,4 @@ Now, I'm taking my expertise to new heights as a remote sensing & AI researcher 
 
 For an overview of Land Cover Mapping projects and their applications have a look at this well-structured [blog post](https://landcarbonlab.org/insights/global-land-cover-maps-accuracy-applications/) by the Land Carbon Lab.  
 
-### Contact
 
-🌱 I’m always interested to learn about how Artificial Intelligence can improve our lives.  
-💬 Do you want to reach out? Send an email at kalfasyan[at]gmail[dot]com  
-🔗 Check my [linktr.ee](https://linktr.ee/kalfasyan)  
-  
-📚 Researcher profiles:  
-🧬 [ORCID](https://orcid.org/0000-0002-9957-1502)  
-🔬 [GOOGLE SCHOLAR](https://scholar.google.com/citations?user=WXHakDkAAAAJ&hl=en)  
-📖 [RESEARCHGATE](https://www.researchgate.net/profile/Ioannis-Kalfas-2)  
-  
-🌐 Stay connected through the following social media channels:  
-📲 [BLUESKY](https://bsky.app/profile/kalfasyan.bsky.social)  
-📲 [LINKEDIN](https://www.linkedin.com/in/kalfasyan/)  
-📲 [GITHUB](https://github.com/kalfasyan/)  
-  
