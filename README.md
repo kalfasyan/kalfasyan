@@ -82,13 +82,24 @@ Keywords: *Earth Observation, Environmental Monitoring, EU Projects, Sustainable
 For an overview of Land Cover Mapping projects and their applications have a look at this well-structured [blog post](https://landcarbonlab.org/insights/global-land-cover-maps-accuracy-applications/) by the Land Carbon Lab.  
   
 #### Open Source Contributions 🌐
-Keywords: *Web Development, CLI Tools, DevOps, Python, tmux, Docker, Full-Stack Development*
+Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing, IoT, Python, Flask, NiceGUI, Solara, Streamlit*
 
-- Created [`desto`](https://github.com/kalfasyan/desto), an open-source web dashboard and CLI tool for managing Python and shell scripts in tmux sessions.
-- ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/desto?style=for-the-badge&logo=github)
-- The project features a full-stack architecture with real-time system monitoring, live log viewing, script scheduling, and both web interface and command-line functionality.
-- Built with modern web technologies and Docker deployment, demonstrating skills in web development, system administration, and developer tooling beyond my core AI/ML expertise.
-  
+**[`desto`](https://github.com/kalfasyan/desto)** - Web dashboard and CLI for managing scripts in tmux sessions  
+![GitHub stars](https://img.shields.io/github/stars/kalfasyan/desto?style=flat-square&logo=github) 
+- Full-stack web application with real-time system monitoring, live log viewing, script scheduling, and both web interface and command-line functionality.
+- Built with modern web technologies and Docker deployment, showcasing full-stack development skills beyond core AI/ML expertise.
+
+**[`plakakia`](https://github.com/kalfasyan/plakakia)** - Python image tiling library for computer vision tasks  
+![GitHub stars](https://img.shields.io/github/stars/kalfasyan/plakakia?style=flat-square&logo=github) 
+- High-performance image tiling tool for object detection and segmentation datasets, utilizing multiprocessing and numpy for efficient processing.
+- Features online/offline processing modes, bounding box handling, duplicate removal, and a Streamlit demo interface.
+- Benchmarked on multiple public datasets with comprehensive performance metrics and extensive documentation.
+
+**[`Home_Surveillance_with_Python`](https://github.com/kalfasyan/Home_Surveillance_with_Python)** - Motion detection surveillance system  
+![GitHub stars](https://img.shields.io/github/stars/kalfasyan/Home_Surveillance_with_Python?style=flat-square&logo=github)
+- Complete IoT surveillance solution using OpenCV for motion detection, Flask for web streaming, and Pushbullet API for mobile alerts.
+- Raspberry Pi compatible with picamera support, demonstrating practical IoT deployment and computer vision integration.
+- Features real-time video streaming, automated alerting, and image capture with motion region highlighting.
     
 <p align="center">
   <a href="https://skillicons.dev">
