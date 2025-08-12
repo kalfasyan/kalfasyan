@@ -76,7 +76,7 @@ Keywords: *Earth Observation, Environmental Monitoring, EU Projects, Sustainable
 For an overview of Land Cover Mapping projects and their applications, see this comprehensive [blog post](https://landcarbonlab.org/insights/global-land-cover-maps-accuracy-applications/) by the Land Carbon Lab.  
 
   
-#### Open Source Contributions 🌐
+### 🌐 Open Source Contributions 
 Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing, IoT, Python, Flask, NiceGUI, Solara, Streamlit*
 
 **[`desto`](https://github.com/kalfasyan/desto)** - Web dashboard and CLI for managing scripts in tmux sessions  
