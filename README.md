@@ -6,7 +6,7 @@
 
 ## 🎯 About Me
 
-I'm a **multidisciplinary computational scientist** at the intersection of Machine Learning and Bioscience Engineering, with **10+ years of combined experience** across academia, industry, and R&D environments.  
+I'm a **multidisciplinary computational scientist and software developer** at the intersection of Machine Learning and Bioscience Engineering, with **10+ years of combined experience** across academia, industry, and R&D environments.  
 
 #### **💼 My professional journey** 
 My professional journey encompasses end-to-end ML pipeline development, cloud-based AI deployment, and strategic AI implementation in production environments, with a consistent focus on driving meaningful technological advancements that address real-world challenges.
