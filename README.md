@@ -105,24 +105,33 @@ Keywords: *Python Programming, Artificial Neural Networks, Spiking Neural Networ
 timeline    
     section Early Research
         Deep Learning in Neurophysiology - KU Leuven (2 years) : Deep CNNs vs Biological Vision
-                                  : 4 Publications in Top Journals
+                                  : 4 Publications in Top Neuroscience Journals
     
     section Industry Experience
         Applied AI & Data Science - Faktion (1 year)         : ML Pipelines & Cloud Deployment
+                                 : Car parts predictive maintenance (Bridgestone)
+                                 : Sales analytics (Aliaxis)
+                                 : Speech-to-text vocal coach (imec spinoff)
+                                 : Computer vision POCs (activity recognition, safety equipment detection etc.)
                                  : Won Hackathon (Activity Recognition)
     
     section PhD & Beyond
-        PhD in Bioscience Engineering - MeBioS, KU Leuven (4 years)   : Optical Insect Identification
-                                 : Data-centric AI & Field Deployment
+        PhD in Bioscience Engineering - MeBioS, KU Leuven (4 years)   : Data-centric AI & Field Deployment
+                                 : Software tools for insect identification setups (wingbeats, images)
+                                 : Insect classification server (annotation tool, API, AI model deployment)
+                                 : 5 Publications in high impact factor journals
         
-        Postdoc - MeBioS, KU Leuven (1+ years)       : Research Leadership & Mentorship
-                                 : Hyperspectral Imaging
-                                 : Software Infrastructure
+        Postdoc - MeBioS, KU Leuven (1+ years)       : Research Leadership & Mentorship of PhD researchers
+                                 : Hyperspectral Imaging Research
+                                 : Project Funding Proposals
+                                 : Software and Data manager
+                                 : AI Lead for insect detection and hyperspectral imaging projects
     
     section Current R&D Engineer
         Remote Sensing Scientist & AI Engineer - VITO (Current)           : AI model pipeline development
-                                 : Cloud Segmentation
-                                 : Land Cover Classification (EU Projects)
+                                 : Cloud Segmentation (participating in CMIX2)
+                                 : Sentinel image compositing
+                                 : Global Land Cover Classification (EU Projects)
 ```  
 #### Deep Learning in Neurophysiology at KUL (PhD researcher) 🧠  
 Keywords: *Brain-Inspired AI, Visual System Research, Neural Activity Prediction, Computer Vision, Scientific Publishing*  
