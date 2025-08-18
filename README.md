@@ -23,20 +23,7 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
 ```
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) 
-∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿
-## Contact
 
-🌱 I'm always interested to learn about how Artificial Intelligence can improve our lives.  
-💬 To reach out, send an email at kalfasyan[at]gmail[dot]com  
-🔗 Check my [linktr.ee](https://linktr.ee/kalfasyan)  
-  
-📚 Researcher profiles:  
-🧬 [orcid](https://orcid.org/0000-0002-9957-1502)  
-🔬 [scholar](https://scholar.google.com/citations?user=WXHakDkAAAAJ&hl=en)  
-📖 [researchgate](https://www.researchgate.net/profile/Ioannis-Kalfas-2)  
-  
-🌐 Stay connected through the following social media channels: [bluesky](https://bsky.app/profile/kalfasyan.bsky.social), [linkedin](https://www.linkedin.com/in/kalfasyan/), [github](https://github.com/kalfasyan/)  
-  
 ----
 
 <details>
@@ -87,86 +74,94 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
 
 ----
 ## Background
-  
-### 🎓 Studies 
-Keywords: *Python Programming, Artificial Neural Networks, Spiking Neural Networks, Machine Learning*  
-  
-- Earned a Bachelor's degree in Computer Science at Aristotle University of Thessaloniki (Greece 🇬🇷), building a solid foundation in computing theory.
-- Completed a Master's degree in [Machine Learning at KTH University](https://www.kth.se/en/studies/master/machine-learning) (Stockholm, Sweden 🇸🇪), specializing in Computational Neuroscience and Spiking Neural Networks.
-- Conducted [thesis](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&dswid=-157) research simulating neocortical structures using the [NEST simulator in Python](https://nest-simulator.readthedocs.io/en/stable/index.html) to compare various [columnar structure types](https://en.wikipedia.org/wiki/Cortical_column) and their activity patterns.
-- Pursued additional research in a neurophysiology lab, exploring computational neuroscience applications.
-- Obtained a PhD degree in Bioscience Engineering, transitioning research focus to optical insect identification using artificial intelligence.
 
-### :briefcase: Professional Experience  
-```mermaid
-timeline    
-    section Early Research
-        Deep Learning in Neurophysiology - KU Leuven (2 years) : Deep CNNs vs Biological Vision
-                                  : 4 Publications in Top Neuroscience Journals
+<details>
+  <summary>
+    <h3>🎓 Studies </h3>
+  </summary>  
+           
+  Keywords: *Python Programming, Artificial Neural Networks, Spiking Neural Networks, Machine Learning*  
+  
+  - Earned a Bachelor's degree in Computer Science at Aristotle University of Thessaloniki (Greece 🇬🇷), building a solid foundation in computing theory.
+  - Completed a Master's degree in [Machine Learning at KTH University](https://www.kth.se/en/studies/master/machine-learning) (Stockholm, Sweden 🇸🇪), specializing in Computational Neuroscience and Spiking Neural Networks.
+  - Conducted [thesis](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&dswid=-157) research simulating neocortical structures using the [NEST simulator in Python](https://nest-simulator.readthedocs.io/en/stable/index.html) to compare various [columnar structure types](https://en.wikipedia.org/wiki/Cortical_column) and their activity patterns.
+  - Pursued additional research in a neurophysiology lab, exploring computational neuroscience applications.
+  - Obtained a PhD degree in Bioscience Engineering, transitioning research focus to optical insect identification using artificial intelligence.
     
-    section Industry Experience
-        Applied AI & Data Science - Faktion (1 year)         : ML Pipelines & Cloud Deployment
-                                 : Car parts predictive maintenance (Bridgestone)
-                                 : Sales analytics (Aliaxis)
-                                 : Speech-to-text vocal coach (imec spinoff)
-                                 : Computer vision POCs (activity recognition, safety equipment detection etc.)
-                                 : Won Hackathon (Activity Recognition)
-    
-    section PhD & Beyond
-        PhD in Bioscience Engineering - MeBioS, KU Leuven (4 years)   : Data-centric AI & Field Deployment
-                                 : Software tools for insect identification setups (wingbeats, images)
-                                 : Insect classification server (annotation tool, API, AI model deployment)
-                                 : 5 Publications in high impact factor journals
-        
-        Postdoc - MeBioS, KU Leuven (1+ years)       : Research Leadership & Mentorship of PhD researchers
-                                 : Hyperspectral Imaging Research
-                                 : Project Funding Proposals
-                                 : Software and Data manager
-                                 : AI Lead for insect detection and hyperspectral imaging projects
-    
-    section Current R&D Engineer
-        Remote Sensing Scientist & AI Engineer - VITO (Current)           : AI model pipeline development
-                                 : Cloud Segmentation (participating in CMIX2)
-                                 : Sentinel image compositing
-                                 : Global Land Cover Classification (EU Projects)
-```  
-#### Deep Learning in Neurophysiology at KUL (PhD researcher) 🧠  
-Keywords: *Brain-Inspired AI, Visual System Research, Neural Activity Prediction, Computer Vision, Scientific Publishing*  
+</details>
   
-- Conducted in-depth studies on deep Convolutional Neural Networks and their resemblance to biological visual systems at the [lab of Neurophysiology of KU Leuven](https://gbiomed.kuleuven.be/english/research/50000666/50000669/50488669) for 2 years.
-- Developed advanced computer vision and regression models to predict biological neuronal activity based on artificial neuron activations from state-of-the-art CNN architectures.
-- Published 4 scientific papers in renowned neuroscience journals ([[1]](https://www.eneuro.org/content/4/3/eneuro.0113-17.2017.abstract)[[2]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006557)[[3]](https://www.jneurosci.org/content/39/33/6513.abstract)[[4]](https://www.frontiersin.org/articles/10.3389/fnhum.2017.00402/full)) and presented research at [VSS conference](https://jov.arvojournals.org/article.aspx?articleid=2651681) (Florida, USA).
 
-#### Applied AI at Faktion (Data Scientist) 🚀  
-Keywords: *Practical Industry AI Solutions, Machine Learning Pipelines, Computer Vision, Cloud Technology, Hackathons*  
+## :briefcase: Professional Experience
+
+### Current Role
+**Remote Sensing Scientist & AI Engineer** | VITO | *Present*  
+*Earth Observation • Environmental Monitoring • EU Projects*
+
+Building AI systems for global land cover classification and environmental monitoring using satellite data. Contributing to EU Commission projects for sustainable development and climate change mitigation.
+
+---
+
+### Key Career Highlights
+
+<details>
+<summary><strong>🛰️ Remote Sensing & AI at VITO</strong> <em>(Current)</em></summary>
+
+- Develop reliable earth land cover classification systems through [LCFM project](https://remotesensing.vito.be/services/copernicus-lcfm)
+- Apply hyperspectral satellite data analysis and ML models for environmental datasets
+- Work with cloud services, Hadoop, Spark, and AWS for large-scale processing
+
+</details>
+
+<details>
+<summary><strong>🐞 PhD in Bioscience Engineering at KU Leuven</strong> <em>(4 years + 1.5 years postdoc)</em></summary>
+
+**PhD Focus:** [Optical Insect Identification using AI](https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=lirias3887120&context=SearchWebhook&vid=32KUL_KUL:Lirias&lang=en&search_scope=lirias_profile&adaptor=SearchWebhook&tab=LIRIAS&query=any%2Ccontains%2CLIRIAS3887120&offset=0)
+
+- Built comprehensive AI systems for insect recognition using computer vision and audio analysis
+- Deployed production API server on AWS serving models to external companies ([demo](https://www.veed.io/view/5147995d-7dad-44e0-b3c7-fd91f16699f0?panel=showcase))
+- Developed software tools for IoT devices, desktop systems, and cloud infrastructure
+- **5 publications** in high-impact journals | Created [`plakakia`](https://github.com/kalfasyan/plakakia) library
+
+**Postdoc:** Led AI projects, mentored PhD researchers, specialized in hyperspectral imaging
+
+</details>
+
+<details>
+<summary><strong>🚀 Data Scientist at Faktion</strong> <em>(1 year)</em></summary>
+
+Applied AI solutions for industry clients including predictive maintenance (Bridgestone), sales analytics (Aliaxis), and computer vision POCs.
+
+**Achievement:** 🏆 Won hackathon on [Activity Recognition](https://faktion.com/blog/human-activity-capturer-and-klassifier-wins-first-prize-at-vinci-energies-hackaton/) (Vinci Energies)
+
+</details>
+
+<details>
+<summary><strong>🧠 Deep Learning Research at KU Leuven</strong> <em>(2 years)</em></summary>
+
+Studied deep CNNs and their resemblance to biological visual systems. Developed models to predict neuronal activity from artificial neuron activations.
+
+**4 publications** in top neuroscience journals | Presented at VSS conference (Florida, USA)
+
+</details>
+
+---
+
+### Tech Stack Highlights
+**AI/ML:** Computer Vision • Deep Learning • CNNs • YOLO • Time-Series Analysis  
+**Cloud:** AWS • Docker • FastAPI • Web GUIs (Streamlit, Solara, NiceGUI...)  
+**Data:** Hyperspectral Imaging • Satellite Data • IoT Sensors • Big Data Processing  
+
+∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿
+## Contact
+
+🌱 I'm always interested to learn about how Artificial Intelligence can improve our lives.  
+💬 To reach out, send an email at kalfasyan[at]gmail[dot]com  
+🔗 Check my [linktr.ee](https://linktr.ee/kalfasyan)  
   
-- Transitioned from fundamental research to applied AI applications to create measurable societal impact through industry-focused solutions.
-- Developed expertise in end-to-end ML pipelines, AI model training, Docker containerization, and cloud deployment while working as a Data Scientist at [Faktion](https://faktion.com/) in Antwerp.
-- Won first place in a [hackathon on Activity Recognition](https://faktion.com/blog/human-activity-capturer-and-klassifier-wins-first-prize-at-vinci-energies-hackaton/) in video data, organized by Vinci Energies.
-
-#### Data-centric AI at MeBioS, KUL (PhD researcher) 🐞  
-Keywords: *Insect Recognition, Optical Sensors, Smart Monitoring Systems, Computer Vision, Sound Pattern Analysis, EU Projects, IoT Devices, Cloud Services*  
+📚 Researcher profiles:  
+🧬 [orcid](https://orcid.org/0000-0002-9957-1502)  
+🔬 [scholar](https://scholar.google.com/citations?user=WXHakDkAAAAJ&hl=en)  
+📖 [researchgate](https://www.researchgate.net/profile/Ioannis-Kalfas-2)  
   
-- Completed PhD in Bioscience Engineering focusing on [Optical Insect Identification using Artificial Intelligence](https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=lirias3887120&context=SearchWebhook&vid=32KUL_KUL:Lirias&lang=en&search_scope=lirias_profile&adaptor=SearchWebhook&tab=LIRIAS&query=any%2Ccontains%2CLIRIAS3887120&offset=0), developing two distinct recognition approaches: image-based computer vision ([repo1](https://github.com/kalfasyan/photobox), [repo2](https://github.com/kalfasyan/photobox_app), [repo3](https://github.com/kalfasyan/stickybugs-ai)) and time-series wingbeat signal processing ([repo1](https://github.com/kalfasyan/wbai), [repo2](https://gitlab.kuleuven.be/mebios-dl/research/3e200920/flying_insect_trap)).
-- Specialized in data-centric AI and rigorous model validation methodologies to ensure reliable performance in real-world field deployments.
-- Built comprehensive software ecosystem including GUIs (Streamlit, Tkinter) and AI models (YOLO, R-CNN, 2-stage detectors) deployed across IoT devices, desktop systems, and cloud infrastructure (AWS).
-- Developed and maintained a production API server on AWS serving image classification models to external companies and research institutes ([demo1](https://www.veed.io/view/5147995d-7dad-44e0-b3c7-fd91f16699f0?panel=showcase), [demo2](https://www.veed.io/view/8efbeae2-e421-456a-9b50-30c968bcdf3e?panel=showcase)), featuring FastAPI backend and Streamlit-based annotation interface.
-
-#### Postdoctoral Researcher at MeBioS, KUL 🦾  
-Keywords: *Research Mentorship, Advanced Imaging, Agricultural Technologies, Software Development, Data Management*  
-  
-- Led multiple AI projects in insect monitoring and agrifood applications while mentoring PhD researchers and developing research-supporting software tools.
-- Advanced expertise in Hyperspectral Imaging (HSI) techniques, applying state-of-the-art methods for complex hypercube data analysis.
-- Served as research data and software manager, overseeing infrastructure for data/software sharing and maintaining the research group's [GitLab organization](https://gitlab.kuleuven.be/mebios-dl).
-- Created the [`plakakia`](https://github.com/kalfasyan/plakakia) image tiling library to support researchers with image processing and object detection workflows.
-
-#### Remote Sensing & AI Researcher at Vito 🛰️  
-Keywords: *Earth Observation, Environmental Monitoring, EU Projects, Sustainable Development, Geospatial Analysis, Cloud Services, Hadoop, Spark, AWS*  
-  
-- Develop reliable earth land cover classification systems through the [LCFM project of the EU commission (JRC)](https://remotesensing.vito.be/services/copernicus-lcfm), building upon successful [ESA Worldcover products](https://esa-worldcover.org/en).
-- Apply hyperspectral satellite data analysis, computer vision techniques, and machine learning models to interpret complex environmental datasets for conservation, land use planning, and climate change mitigation applications.
-- Contribute to innovative solutions for planetary resource monitoring and management through advanced geospatial AI technologies.
-
-For an overview of Land Cover Mapping projects and their applications, see this comprehensive [blog post](https://landcarbonlab.org/insights/global-land-cover-maps-accuracy-applications/) by the Land Carbon Lab.  
-
+🌐 Stay connected through the following social media channels: [bluesky](https://bsky.app/profile/kalfasyan.bsky.social), [linkedin](https://www.linkedin.com/in/kalfasyan/), [github](https://github.com/kalfasyan/)  
   
