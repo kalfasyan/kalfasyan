@@ -84,7 +84,7 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
   
   - Earned a Bachelor's degree in Computer Science at Aristotle University of Thessaloniki (Greece 🇬🇷), building a solid foundation in computing theory.
   - Completed a Master's degree in [Machine Learning at KTH University](https://www.kth.se/en/studies/master/machine-learning) (Stockholm, Sweden 🇸🇪), specializing in Computational Neuroscience and Spiking Neural Networks.
-  - Conducted [thesis](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&dswid=-157) research simulating neocortical structures using the [NEST simulator in Python](https://nest-simulator.readthedocs.io/en/stable/index.html) to compare various [columnar structure types](https://en.wikipedia.org/wiki/Cortical_column) and their activity patterns.
+      - Conducted [thesis](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&dswid=-157) research simulating neocortical structures using the [NEST simulator in Python](https://nest-simulator.readthedocs.io/en/stable/index.html) to compare various [columnar structure types](https://en.wikipedia.org/wiki/Cortical_column) and their activity patterns.
   - Pursued additional research in a neurophysiology lab, exploring computational neuroscience applications.
   - Obtained a PhD degree in Bioscience Engineering, transitioning research focus to optical insect identification using artificial intelligence.
     
