@@ -104,7 +104,7 @@ Building AI systems for global land cover classification and environmental monit
 ### Key Career Highlights
 
 <details>
-<summary><strong>🛰️ Remote Sensing & AI at VITO</strong> <em>(Current)</em></summary>
+<summary><strong>🛰️ Remote Sensing & AI at VITO</strong> <em>(Current; 2024-)</em></summary>
 
 - Develop reliable earth land cover classification systems through [LCFM project](https://remotesensing.vito.be/services/copernicus-lcfm)
 - Apply hyperspectral satellite data analysis and ML models for environmental datasets
@@ -113,21 +113,21 @@ Building AI systems for global land cover classification and environmental monit
 </details>
 
 <details>
-<summary><strong>🐞 PhD in Bioscience Engineering at KU Leuven</strong> <em>(4 years + 1.5 years postdoc)</em></summary>
+<summary><strong>🐞 PhD & Postdoc in Bioscience Engineering at KU Leuven</strong> <em>(4 + 1.5 years; 2018-2022 + 2022-2024)</em></summary>
 
-**PhD Focus:** [Optical Insect Identification using AI](https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=lirias3887120&context=SearchWebhook&vid=32KUL_KUL:Lirias&lang=en&search_scope=lirias_profile&adaptor=SearchWebhook&tab=LIRIAS&query=any%2Ccontains%2CLIRIAS3887120&offset=0)
+*PhD Focus:* [Optical Insect Identification using AI](https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=lirias3887120&context=SearchWebhook&vid=32KUL_KUL:Lirias&lang=en&search_scope=lirias_profile&adaptor=SearchWebhook&tab=LIRIAS&query=any%2Ccontains%2CLIRIAS3887120&offset=0)
 
-- Built comprehensive AI systems for insect recognition using computer vision and audio analysis
-- Deployed production API server on AWS serving models to external companies ([demo](https://www.veed.io/view/5147995d-7dad-44e0-b3c7-fd91f16699f0?panel=showcase))
-- Developed software tools for IoT devices, desktop systems, and cloud infrastructure
-- **5 publications** in high-impact journals | Created [`plakakia`](https://github.com/kalfasyan/plakakia) library
+*Postdoc:* Led AI projects, mentored PhD researchers, specialized in hyperspectral imaging  
 
-**Postdoc:** Led AI projects, mentored PhD researchers, specialized in hyperspectral imaging
+- Built comprehensive AI systems for insect recognition using computer vision and audio analysis (see [insect-trap](https://gitlab.kuleuven.be/mebios-dl/research/3e200920/flying_insect_trap), [wbai](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/wbai), [stickybugs-ai](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/stickybugs-ai))
+- Developed software tools for IoT devices, desktop systems, and cloud infrastructure (see [photobox](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/photobox), [example publication](https://www.sciencedirect.com/science/article/pii/S1574954123000663))
+- Deployed production API server on AWS serving AI models and tools to external companies via a web interface ([demo-setup](https://www.veed.io/view/5147995d-7dad-44e0-b3c7-fd91f16699f0?panel=showcase), [demo-interface](https://www.veed.io/view/8efbeae2-e421-456a-9b50-30c968bcdf3e?panel=showcase), [demo-label-tool](https://www.veed.io/view/0cc62395-a29e-41f0-82ff-6218e6b28400?panel=share))
+**5 publications** in high-impact journals | Created [`plakakia`](https://github.com/kalfasyan/plakakia) library
 
 </details>
 
 <details>
-<summary><strong>🚀 Data Scientist at Faktion</strong> <em>(1 year)</em></summary>
+<summary><strong>🚀 Data Scientist at Faktion</strong> <em>(1 year; 2017-2018)</em></summary>
 
 Applied AI solutions for industry clients including predictive maintenance (Bridgestone), sales analytics (Aliaxis), and computer vision POCs.
 
@@ -136,7 +136,7 @@ Applied AI solutions for industry clients including predictive maintenance (Brid
 </details>
 
 <details>
-<summary><strong>🧠 Deep Learning Research at KU Leuven</strong> <em>(2 years)</em></summary>
+<summary><strong>🧠 Deep Learning Research at KU Leuven</strong> <em>(2 years; 2015-2017)</em></summary>
 
 Studied deep CNNs and their resemblance to biological visual systems. Developed models to predict neuronal activity from artificial neuron activations.
 
