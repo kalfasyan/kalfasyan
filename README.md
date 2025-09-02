@@ -122,6 +122,7 @@ Building AI systems for global land cover classification and environmental monit
 - Built comprehensive AI systems for insect recognition using computer vision and audio analysis (see [insect-trap](https://gitlab.kuleuven.be/mebios-dl/research/3e200920/flying_insect_trap), [wbai](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/wbai), [stickybugs-ai](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/stickybugs-ai))
 - Developed software tools for IoT devices, desktop systems, and cloud infrastructure (see [photobox](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/photobox), [example publication](https://www.sciencedirect.com/science/article/pii/S1574954123000663))
 - Deployed production API server on AWS serving AI models and tools to external companies via a web interface ([demo-setup](https://www.veed.io/view/5147995d-7dad-44e0-b3c7-fd91f16699f0?panel=showcase), [demo-interface](https://www.veed.io/view/8efbeae2-e421-456a-9b50-30c968bcdf3e?panel=showcase), [demo-label-tool](https://www.veed.io/view/0cc62395-a29e-41f0-82ff-6218e6b28400?panel=share))
+  
 **5 publications** in high-impact journals | Created [`plakakia`](https://github.com/kalfasyan/plakakia) library
 
 </details>
