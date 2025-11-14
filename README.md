@@ -6,12 +6,18 @@
 
 ## 🎯 About Me
 
-I'm a **multidisciplinary computational scientist and software engineer** at the intersection of Computer Vision, Machine Learning and Bioscience Engineering, with **10+ years of combined experience** across academia, industry, and R&D environments.  
-
+I'm a **multidisciplinary computational scientist and software engineer** at the intersection of Computer Vision, Machine Learning and Bioscience Engineering, with **10 years of combined experience** across academia, industry, and R&D environments.  
+  
 #### **💼 My professional journey** 
+*10 years of experience across 4 research and industry environments*
 ```
 🧠 AI in Neurophysiology  →  🚀 Industry AI  →  🐞 Agricultural AI  →  🛰️ AI for Earth Observation
            Lab Research         Applied Solutions     Field Applications    Global Monitoring
+```
+
+**Timeline:**
+```
+2015-2017: Neurophysiology (KUL) → 2017-2018: ML-team (Faktion) → 2018-2024: MeBioS (KUL) → 2024-Present: Remote-Sensing (VITO)
 ```
 
 #### **🌍 Currently Working On** 
