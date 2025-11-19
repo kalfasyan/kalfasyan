@@ -79,40 +79,50 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
 ----
 ## Background
 
-<details>
-  <summary>
-    <h3>🎓 Studies </h3>
-  </summary>  
-           
-  Keywords: *Python Programming, Artificial Neural Networks, Spiking Neural Networks, Machine Learning*  
+### 🎓 Studies  
   
-  - Earned a Bachelor's degree in Computer Science at Aristotle University of Thessaloniki (Greece 🇬🇷), building a solid foundation in computing theory.
-  - Completed a Master's degree in [Machine Learning at KTH University](https://www.kth.se/en/studies/master/machine-learning) (Stockholm, Sweden 🇸🇪), specializing in Computational Neuroscience and Spiking Neural Networks.
-      - Conducted [thesis](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&dswid=-157) research simulating neocortical structures using the [NEST simulator in Python](https://nest-simulator.readthedocs.io/en/stable/index.html) to compare various [columnar structure types](https://en.wikipedia.org/wiki/Cortical_column) and their activity patterns.
-  - Pursued additional research in a neurophysiology lab, exploring computational neuroscience applications.
-  - Obtained a PhD degree in Bioscience Engineering, transitioning research focus to optical insect identification using artificial intelligence.
-    
+Keywords: *Python Programming, Artificial Neural Networks, Spiking Neural Networks, Machine Learning*  
+
+<details>
+<summary><strong>🎓 BSc. Computer Science</strong> <em>(Aristotle University of Thessaloniki, Greece 🇬🇷; 2013)</em></summary>
+
+Built a solid foundation in computing theory and educational information systems
+
+</details>
+
+<details>
+<summary><strong>🎓 MSc. Machine Learning</strong> <em>(KTH Royal Institute of Technology, Stockholm, Sweden 🇸🇪; 2015)</em></summary>
+
+Specialized in Computational Neuroscience and Spiking Neural Networks  
+[Thesis research](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&dswid=-157) simulating neocortical structures using [NEST simulator in Python](https://nest-simulator.readthedocs.io/en/stable/index.html)
+
+</details>
+
+<details>
+<summary><strong>🧠 PhD Research - Neurophysiology Lab</strong> <em>(KU Leuven, Belgium 🇧🇪; 2 years; 2015-2017)</em></summary>
+
+*Fulfilled requirements early, but exited programme*
+
+Explored computational neuroscience applications and deep learning models for biological neurons
+
+</details>
+
+<details>
+<summary><strong>🐞 PhD in Bioscience Engineering</strong> <em>(KU Leuven, Belgium 🇧🇪; 4 years; 2018-2022)</em></summary>
+
+Successfully completed doctoral research with a focus on optical insect identification using signal processing and computer vision with AI/ML/DL
+
 </details>
   
-
-## :briefcase: Professional Experience
-
-### Current Role
-**Remote Sensing Scientist & AI Engineer** | VITO | *Present*  
-*Earth Observation • Environmental Monitoring • EU Projects*
-
-Building AI systems for global land cover classification and environmental monitoring using satellite data. Contributing to EU Commission projects for sustainable development and climate change mitigation.
-
----
-
-### Key Career Highlights
-
+### :briefcase: Professional Experience
+  
 <details>
 <summary><strong>🛰️ Remote Sensing & AI at VITO</strong> <em>(Current; 2024-)</em></summary>
 
 - Develop reliable earth land cover classification systems through [LCFM project](https://remotesensing.vito.be/services/copernicus-lcfm)
 - Apply hyperspectral satellite data analysis and ML models for environmental datasets
 - Work with cloud services, Hadoop, Spark, and AWS for large-scale processing
+- Contributing to EU Commission projects for sustainable development and climate change mitigation.
 
 </details>
 
@@ -147,8 +157,8 @@ Studied deep CNNs and their resemblance to biological visual systems. Developed 
 
 **4 publications** in top neuroscience journals | Presented at VSS conference (Florida, USA)
 
-</details>
-
+</details>  
+  
 ---
 
 ### Tech Stack Highlights
