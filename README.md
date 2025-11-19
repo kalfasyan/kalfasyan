@@ -84,9 +84,18 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
 Keywords: *Python Programming, Artificial Neural Networks, Spiking Neural Networks, Machine Learning*  
 
 <details>
-<summary><strong>🎓 BSc. Computer Science</strong> <em>(Aristotle University of Thessaloniki, Greece 🇬🇷; 2013)</em></summary>
+<summary><strong>🐞 PhD in Bioscience Engineering</strong> <em>(KU Leuven, Belgium 🇧🇪; 4 years; 2018-2022)</em></summary>
 
-Built a solid foundation in computing theory and educational information systems
+Successfully completed doctoral research with a focus on optical insect identification using signal processing and computer vision with AI/ML/DL
+
+</details>
+
+<details>
+<summary><strong>🧠 PhD Research* - Neurophysiology Lab</strong> <em>(KU Leuven, Belgium 🇧🇪; 2 years; 2015-2017)</em></summary>
+
+**Fulfilled requirements early, but exited programme*
+
+Explored computational neuroscience applications and deep learning models for biological neurons
 
 </details>
 
@@ -99,18 +108,9 @@ Specialized in Computational Neuroscience and Spiking Neural Networks
 </details>
 
 <details>
-<summary><strong>🧠 PhD Research - Neurophysiology Lab</strong> <em>(KU Leuven, Belgium 🇧🇪; 2 years; 2015-2017)</em></summary>
+<summary><strong>🎓 BSc. Computer Science</strong> <em>(Aristotle University of Thessaloniki, Greece 🇬🇷; 2013)</em></summary>
 
-*Fulfilled requirements early, but exited programme*
-
-Explored computational neuroscience applications and deep learning models for biological neurons
-
-</details>
-
-<details>
-<summary><strong>🐞 PhD in Bioscience Engineering</strong> <em>(KU Leuven, Belgium 🇧🇪; 4 years; 2018-2022)</em></summary>
-
-Successfully completed doctoral research with a focus on optical insect identification using signal processing and computer vision with AI/ML/DL
+Built a solid foundation in computing theory and educational information systems
 
 </details>
   
