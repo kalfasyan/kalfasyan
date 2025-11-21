@@ -79,41 +79,6 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
 ----
 ## Background
 
-### 🎓 Studies  
-  
-Keywords: *Python Programming, Artificial Neural Networks, Spiking Neural Networks, Machine Learning*  
-
-<details>
-<summary><strong>🐞 PhD in Bioscience Engineering</strong> <em>(KU Leuven, Belgium 🇧🇪; 4 years; 2018-2022)</em></summary>
-
-Successfully completed doctoral research with a focus on optical insect identification using signal processing and computer vision with AI/ML/DL
-
-</details>
-
-<details>
-<summary><strong>🧠 PhD Research* - Neurophysiology Lab</strong> <em>(KU Leuven, Belgium 🇧🇪; 2 years; 2015-2017)</em></summary>
-
-**Fulfilled requirements early, but exited programme*
-
-Explored computational neuroscience applications and deep learning models for biological neurons
-
-</details>
-
-<details>
-<summary><strong>🎓 MSc. Machine Learning</strong> <em>(KTH Royal Institute of Technology, Stockholm, Sweden 🇸🇪; 2015)</em></summary>
-
-Specialized in Computational Neuroscience and Spiking Neural Networks  
-[Thesis research](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&dswid=-157) simulating neocortical structures using [NEST simulator in Python](https://nest-simulator.readthedocs.io/en/stable/index.html)
-
-</details>
-
-<details>
-<summary><strong>🎓 BSc. Computer Science</strong> <em>(Aristotle University of Thessaloniki, Greece 🇬🇷; 2013)</em></summary>
-
-Built a solid foundation in computing theory and educational information systems
-
-</details>
-  
 ### :briefcase: Professional Experience
   
 <details>
@@ -158,6 +123,39 @@ Studied deep CNNs and their resemblance to biological visual systems. Developed 
 **4 publications** in top neuroscience journals | Presented at VSS conference (Florida, USA)
 
 </details>  
+
+### 🎓 Studies  
+  
+<details>
+<summary><strong>🐞 PhD in Bioscience Engineering</strong> <em>(KU Leuven, Belgium 🇧🇪; 4 years; 2018-2022)</em></summary>
+
+Successfully completed doctoral research with a focus on optical insect identification using signal processing and computer vision with AI/ML/DL
+
+</details>
+
+<details>
+<summary><strong>🧠 PhD Research* - Neurophysiology Lab</strong> <em>(KU Leuven, Belgium 🇧🇪; 2 years; 2015-2017)</em></summary>
+
+**Fulfilled requirements early, but exited programme*
+
+Explored computational neuroscience applications and deep learning models for biological neurons
+
+</details>
+
+<details>
+<summary><strong>🎓 MSc. Machine Learning</strong> <em>(KTH Royal Institute of Technology, Stockholm, Sweden 🇸🇪; 2015)</em></summary>
+
+Specialized in Computational Neuroscience and Spiking Neural Networks  
+[Thesis research](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&dswid=-157) simulating neocortical structures using [NEST simulator in Python](https://nest-simulator.readthedocs.io/en/stable/index.html)
+
+</details>
+
+<details>
+<summary><strong>🎓 BSc. Computer Science</strong> <em>(Aristotle University of Thessaloniki, Greece 🇬🇷; 2013)</em></summary>
+
+Built a solid foundation in computing theory and educational information systems
+
+</details>
   
 ---
 
