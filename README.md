@@ -10,13 +10,14 @@ I'm a **multidisciplinary computational scientist and software engineer** at the
   
 #### **💼 My professional journey** 
 *10 years of experience across 4 research and industry environments*
+  
+**Timeline in short (see below for more details):**  
 ```
   2015 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2026
 🧠 AI in Neurophysiology  →  🚀 Industry AI  →  🐞 Agricultural AI  →  🛰️ AI for Earth Observation
            Lab Research         Applied Solutions     Field Applications    Global Monitoring
 ```
 
-**Timeline in short (see below for more details):**
 ```
 2015-2017: PhD - Deep Learning in Neurophysiology (KUL); Finished requirements early, but exited programme in 2 years with 4 publications  
 2017-2018: Data Scientist in the ML-team (Faktion); Various industry projects, won Hackathon (Activity Recognition in camera feeds)  
