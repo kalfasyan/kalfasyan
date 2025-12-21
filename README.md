@@ -11,14 +11,19 @@ I'm a **multidisciplinary computational scientist and software engineer** at the
 #### **💼 My professional journey** 
 *10 years of experience across 4 research and industry environments*
 ```
+  2015 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2026
 🧠 AI in Neurophysiology  →  🚀 Industry AI  →  🐞 Agricultural AI  →  🛰️ AI for Earth Observation
            Lab Research         Applied Solutions     Field Applications    Global Monitoring
 ```
 
-**Timeline:**
+**Timeline in short (see below for more details):**
 ```
-2015-2017: Neurophysiology (KUL) → 2017-2018: ML-team (Faktion) → 2018-2024: MeBioS (KUL) → 2024-Present: Remote-Sensing (VITO)
+2015-2017: PhD - Deep Learning in Neurophysiology (KUL); Finished requirements early, but exited programme in 2 years with 4 publications  
+2017-2018: Data Scientist in the ML-team (Faktion); Various industry projects, won Hackathon (Activity Recognition in camera feeds)  
+2018-2024: PhD + *Postdoc* at MeBioS (KUL); Insect identification using AI, built GUI+API AWS server for annotation, classification and model serving
+2024-Present: R&D Engineer at Remote-Sensing unit (VITO); models for "global" EO tasks like Cloud segmentation, Land-cover classification. 
 ```
+
 
 #### **🌍 Currently Working On** 
 I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](https://land.copernicus.eu/en/news/lcfm-a-new-chapter-in-global-land-cover-monitoring)** project at Vito, part of the EU's Copernicus programme, in the team that released the famous [ESA WorldCover products](https://esa-worldcover.org/en). My work involves building multi-stage AI pipelines that process satellite data to create global land cover maps at unprecedented 10m resolution—a tenfold improvement over previous products. I specialize in training cloud segmentation models for quality signal identification, maintaining our code repositories on github (soon to be open-sourced), and deploying classification models that generate annual land cover maps for the entire planet, directly supporting EU environmental policy and climate monitoring initiatives.
@@ -124,6 +129,9 @@ Studied deep CNNs and their resemblance to biological visual systems. Developed 
 
 </details>  
 
+---
+  
+  
 ### 🎓 Studies  
   
 <details>
