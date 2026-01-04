@@ -38,21 +38,6 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
 
 <details>
   <summary>
-    <h3>📊 GitHub Analytics & Activity</h3>
-  </summary>
-
-  <div align="center">
-
-  ![Ioannis's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kalfasyan&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&count_private=true)
-
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kalfasyan&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FFA116&currStreakLabel=58A6FF)
-
-  </div>
-</details>
-   
-
-<details>
-  <summary>
     <h3>🌐 Open Source Contributions </h3>
   </summary>
 
@@ -60,20 +45,25 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
 
   **[`desto`](https://github.com/kalfasyan/desto)** - Web dashboard and CLI for managing scripts in tmux sessions  
   ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/desto?style=flat-square&logo=github)  
-  - Full-stack web application with real-time system monitoring, live log viewing, script scheduling, and both web interface and command-line functionality.
-  - Built with modern web technologies and Docker deployment, showcasing full-stack development skills beyond core AI/ML expertise.
+  - Full-stack web application with real-time system monitoring, live log viewing, script scheduling, and both web interface and command-line functionality.  
+
+  **[`vresto`](https://github.com/kalfasyan/vresto)** - Python interface for Copernicus Sentinel data discovery  
+  ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/vresto?style=flat-square&logo=github)
+  - Elegant interface featuring an interactive map for visual searching and high-resolution band visualization.
+  - Supports dual backends (OData/STAC), granular download management, and a professional CLI/API for programmatic satellite data retrieval.  
+
+  **[`filoma`](https://github.com/kalfasyan/filoma)** - File organization & management automation  
+  ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/filoma?style=flat-square&logo=github)
+  - Intelligent system designed to categorize and clean up large-scale research datasets based on metadata and content.
+  - Optimizes pre-processing workflows for ML environments by streamlining directory structures.
 
   **[`plakakia`](https://github.com/kalfasyan/plakakia)** - Python image tiling library for computer vision tasks  
   ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/plakakia?style=flat-square&logo=github)  
-  - High-performance image tiling tool for object detection and segmentation datasets, utilizing multiprocessing and numpy for efficient processing.
-  - Features online/offline processing modes, bounding box handling, duplicate removal, and a Streamlit demo interface.
-  - Benchmarked on multiple public datasets with comprehensive performance metrics and extensive documentation.
+  - High-performance image tiling tool for object detection and segmentation, utilizing multiprocessing and numpy for efficient processing.
 
   **[`Home_Surveillance_with_Python`](https://github.com/kalfasyan/Home_Surveillance_with_Python)** - Motion detection surveillance system  
   ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/Home_Surveillance_with_Python?style=flat-square&logo=github)
-  - Complete IoT surveillance solution using OpenCV for motion detection, Flask for web streaming, and Pushbullet API for mobile alerts.
-  - Raspberry Pi compatible with picamera support, demonstrating practical IoT deployment and computer vision integration.
-  - Features real-time video streaming, automated alerting, and image capture with motion region highlighting.
+  - IoT surveillance solution using OpenCV for motion detection, Flask for streaming, and Pushbullet API for mobile alerts.
     
   <p align="center">
     <a href="https://skillicons.dev">
