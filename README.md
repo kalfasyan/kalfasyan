@@ -63,7 +63,7 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
 
   **[`Home_Surveillance_with_Python`](https://github.com/kalfasyan/Home_Surveillance_with_Python)** - Motion detection surveillance system  
   ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/Home_Surveillance_with_Python?style=flat-square&logo=github)
-  - IoT surveillance solution using OpenCV for motion detection, Flask for streaming, and Pushbullet API for mobile alerts.
+  - End-to-end Edge AI product featuring real-time motion analysis on Raspberry Pi with cloud-notified alerts.
     
   <p align="center">
     <a href="https://skillicons.dev">
@@ -92,7 +92,7 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
 
 *PhD Focus:* [Optical Insect Identification using AI](https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=lirias3887120&context=SearchWebhook&vid=32KUL_KUL:Lirias&lang=en&search_scope=lirias_profile&adaptor=SearchWebhook&tab=LIRIAS&query=any%2Ccontains%2CLIRIAS3887120&offset=0)
 
-*Postdoc:* Led AI projects, mentored PhD researchers, specialized in hyperspectral imaging  
+*Postdoc:* Led AI projects, mentored PhD researchers, specialized in hyperspectral imaging. Productized research by developing a production-ready API and web dashboard, bridging the gap between raw AI models and end-user accessibility.
 
 - Built comprehensive AI systems for insect recognition using computer vision and audio analysis (see [insect-trap](https://gitlab.kuleuven.be/mebios-dl/research/3e200920/flying_insect_trap), [wbai](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/wbai), [stickybugs-ai](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/stickybugs-ai))
 - Developed software tools for IoT devices, desktop systems, and cloud infrastructure (see [photobox](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/photobox), [example publication](https://www.sciencedirect.com/science/article/pii/S1574954123000663))
