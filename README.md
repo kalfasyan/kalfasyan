@@ -107,7 +107,7 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
 
 Applied AI solutions for industry clients including predictive maintenance (Bridgestone), sales analytics (Aliaxis), and computer vision POCs.
 
-**Achievement:** 🏆 Won hackathon on [Activity Recognition](https://faktion.com/blog/human-activity-capturer-and-klassifier-wins-first-prize-at-vinci-energies-hackaton/) (Vinci Energies)
+**Achievement:** 🏆 Won hackathon on [Activity Recognition](https://youtu.be/zQ45C3eU1sg?t=80) (Vinci Energies)
 
 </details>
 
