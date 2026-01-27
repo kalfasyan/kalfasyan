@@ -36,7 +36,7 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
   
 ----
 
-# 🌐 Open Source Contributions  
+## 🌐 Open Source Contributions  
 Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing, IoT, Python, Flask, NiceGUI, Solara, Streamlit*
 
 **[`desto`](https://github.com/kalfasyan/desto)** - Web dashboard and CLI for managing scripts in tmux sessions  
