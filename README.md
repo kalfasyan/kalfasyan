@@ -36,41 +36,36 @@ I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](htt
   
 ----
 
-<details>
-  <summary>
-    <h3>🌐 Open Source Contributions </h3>
-  </summary>
+# 🌐 Open Source Contributions  
+Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing, IoT, Python, Flask, NiceGUI, Solara, Streamlit*
 
-  Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing, IoT, Python, Flask, NiceGUI, Solara, Streamlit*
+**[`desto`](https://github.com/kalfasyan/desto)** - Web dashboard and CLI for managing scripts in tmux sessions  
+![GitHub stars](https://img.shields.io/github/stars/kalfasyan/desto?style=flat-square&logo=github)  
+- Full-stack web application with real-time system monitoring, live log viewing, script scheduling, and both web interface and command-line functionality.  
 
-  **[`desto`](https://github.com/kalfasyan/desto)** - Web dashboard and CLI for managing scripts in tmux sessions  
-  ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/desto?style=flat-square&logo=github)  
-  - Full-stack web application with real-time system monitoring, live log viewing, script scheduling, and both web interface and command-line functionality.  
+**[`vresto`](https://github.com/kalfasyan/vresto)** - Python interface for Copernicus Sentinel data discovery  
+![GitHub stars](https://img.shields.io/github/stars/kalfasyan/vresto?style=flat-square&logo=github)
+- Elegant interface featuring an interactive map for visual searching and high-resolution band visualization.
+- Supports dual backends (OData/STAC), granular download management, and a professional CLI/API for programmatic satellite data retrieval.  
 
-  **[`vresto`](https://github.com/kalfasyan/vresto)** - Python interface for Copernicus Sentinel data discovery  
-  ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/vresto?style=flat-square&logo=github)
-  - Elegant interface featuring an interactive map for visual searching and high-resolution band visualization.
-  - Supports dual backends (OData/STAC), granular download management, and a professional CLI/API for programmatic satellite data retrieval.  
+**[`filoma`](https://github.com/kalfasyan/filoma)** - File organization & management automation  
+![GitHub stars](https://img.shields.io/github/stars/kalfasyan/filoma?style=flat-square&logo=github)
+- Intelligent system designed to categorize and clean up large-scale research datasets based on metadata and content.
+- Optimizes pre-processing workflows for ML environments by streamlining directory structures.
 
-  **[`filoma`](https://github.com/kalfasyan/filoma)** - File organization & management automation  
-  ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/filoma?style=flat-square&logo=github)
-  - Intelligent system designed to categorize and clean up large-scale research datasets based on metadata and content.
-  - Optimizes pre-processing workflows for ML environments by streamlining directory structures.
+**[`plakakia`](https://github.com/kalfasyan/plakakia)** - Python image tiling library for computer vision tasks  
+![GitHub stars](https://img.shields.io/github/stars/kalfasyan/plakakia?style=flat-square&logo=github)  
+- High-performance image tiling tool for object detection and segmentation, utilizing multiprocessing and numpy for efficient processing.
 
-  **[`plakakia`](https://github.com/kalfasyan/plakakia)** - Python image tiling library for computer vision tasks  
-  ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/plakakia?style=flat-square&logo=github)  
-  - High-performance image tiling tool for object detection and segmentation, utilizing multiprocessing and numpy for efficient processing.
-
-  **[`Home_Surveillance_with_Python`](https://github.com/kalfasyan/Home_Surveillance_with_Python)** - Motion detection surveillance system  
-  ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/Home_Surveillance_with_Python?style=flat-square&logo=github)
-  - End-to-end Edge AI product featuring real-time motion analysis on Raspberry Pi with cloud-notified alerts.
-    
-  <p align="center">
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=python,pytorch,github,sklearn,opencv,fastapi,ubuntu,linux,bash,vscode,aws,anaconda,raspberrypi" />
-    </a>
-  </p>
-</details>
+**[`Home_Surveillance_with_Python`](https://github.com/kalfasyan/Home_Surveillance_with_Python)** - Motion detection surveillance system  
+![GitHub stars](https://img.shields.io/github/stars/kalfasyan/Home_Surveillance_with_Python?style=flat-square&logo=github)
+- End-to-end Edge AI product featuring real-time motion analysis on Raspberry Pi with cloud-notified alerts.
+  
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,pytorch,github,sklearn,opencv,fastapi,ubuntu,linux,bash,vscode,aws,anaconda,raspberrypi" />
+  </a>
+</p>
 
 ----
 ## Background
