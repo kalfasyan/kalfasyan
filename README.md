@@ -13,7 +13,7 @@ I'm a **multidisciplinary computational scientist and software engineer** at the
   
 **Timeline in short (see below for more details):**  
 ```
-  2015 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2026
+  2015 ━━━━━━━━━━━━━━━━━━━━━━2017━━━━━━━━━━━━━━━━2018━━━━━━━━━━━━━━━━━━━━2024━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2026 
 🧠 AI in Neurophysiology  →  🚀 Industry AI  →  🐞 Agricultural AI  →  🛰️ AI for Earth Observation →  💽 AI for EO data compression
            Lab Research         Applied Solutions     Field Applications    Global Monitoring              Edge solutions
 ```
