@@ -9,25 +9,31 @@
 I'm a **multidisciplinary computational scientist and software engineer** at the intersection of Computer Vision, Machine Learning and Bioscience Engineering, with **10 years of combined experience** across academia, industry, and R&D environments.  
   
 #### **💼 My professional journey** 
-*10 years of experience across 4 research and industry environments*
+*10 years of experience across 5 research and industry environments*
   
 **Timeline in short (see below for more details):**  
 ```
   2015 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2026
-🧠 AI in Neurophysiology  →  🚀 Industry AI  →  🐞 Agricultural AI  →  🛰️ AI for Earth Observation
-           Lab Research         Applied Solutions     Field Applications    Global Monitoring
+🧠 AI in Neurophysiology  →  🚀 Industry AI  →  🐞 Agricultural AI  →  🛰️ AI for Earth Observation →  💽 AI for EO data compression
+           Lab Research         Applied Solutions     Field Applications    Global Monitoring              Edge solutions
 ```
 
 ```
 2015-2017: PhD - Deep Learning in Neurophysiology (KUL); Finished requirements early, but exited programme in 2 years with 4 publications  
 2017-2018: Data Scientist in the ML-team (Faktion); Various industry projects, won Hackathon (Activity Recognition in camera feeds)  
 2018-2024: PhD + *Postdoc* at MeBioS (KUL); Insect identification using AI, built GUI+API AWS server for annotation, classification and model serving
-2024-Present: R&D Engineer at Remote-Sensing unit (VITO); models for "global" EO tasks like Cloud segmentation, Land-cover classification. 
+2024-2026: R&D Engineer at VITO Remote-Sensing; models for "global" EO tasks like Cloud segmentation, Land-cover classification.
+2026-... : R&D Engineer at VITO Remote-Sensing; optimizing deep architectures for image compression and embedded solutions.  
 ```
 
 
-#### **🌍 Currently Working On** 
-I'm developing AI models for the **[Land Cover and Forest Monitoring (LCFM)](https://land.copernicus.eu/en/news/lcfm-a-new-chapter-in-global-land-cover-monitoring)** project at Vito, part of the EU's Copernicus programme, in the team that released the famous [ESA WorldCover products](https://esa-worldcover.org/en). My work involves building multi-stage AI pipelines that process satellite data to create global land cover maps at unprecedented 10m resolution—a tenfold improvement over previous products. I specialize in training cloud segmentation models for quality signal identification, maintaining our code repositories on github (soon to be open-sourced), and deploying classification models that generate annual land cover maps for the entire planet, directly supporting EU environmental policy and climate monitoring initiatives.
+#### **🌍 Currently Working On at [VITO Remote Sensing](https://remotesensing.vito.be/)** 
+Currently, I'm optimizing VITO's [CORSA model](https://blog.vito.be/remotesensing/democratising-eo-intelligence-corsa-and-major-tom-now-live-on-terrascope) (lightweight satellite image compression on edge devices) in the AGES (Applied GeoAI and Edge Solutions) team of VITO's Remote Sensing unit. In parallel I'm designing custom MLOps tools for internal use supporting experiment tracking and GPU cluster (on-prem) job managing.  
+```
+📡 Satellite Images → 🔄 CORSA Compression (Edge) → 🖥️ On-Prem GPU Cluster
+↳ 🔧 MLOps Tools: Experiment Tracking & Job Management
+```
+Before joining AGES, I was part of the RSA team at Vito, developing AI models for the EU’s Copernicus **[Land Cover and Forest Monitoring (LCFM)](https://land.copernicus.eu/en/news/lcfm-a-new-chapter-in-global-land-cover-monitoring)** project (€11M budget). Our team had previously delivered the [ESA WorldCover products](https://esa-worldcover.org/en). I built multi-stage AI pipelines to process satellite data, producing global land cover maps at 10m resolution—ten times sharper than before. My focus was on cloud segmentation models for quality signal identification, maintaining code repositories (soon to be open-sourced), and deploying classification models that generate annual land cover maps, directly supporting EU environmental policy and climate monitoring.  
 
 ```
 🛰️ Satellite Data → ☁️ AI Cloud Detection → 📊 Quality Composites → 🗺️ Global Land Cover Maps
