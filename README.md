@@ -13,17 +13,17 @@ I'm a **multidisciplinary computational scientist and software engineer** at the
   
 **Timeline in short (see below for more details):**  
 ```
-  2015 ━━━━━━━━━━━━━━━━━━━━━━2017━━━━━━━━━━━━━━━━2018━━━━━━━━━━━━━━━━━━━━2024━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2026 
+  2015 ━━━━━━━━━━━━━━━━━━━━━━2017━━━━━━━━━━━━━━━━2018━━━━━━━━━━━━━━━━━━━━2024━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2026  
 🧠 AI in Neurophysiology  →  🚀 Industry AI  →  🐞 Agricultural AI  →  🛰️ AI for Earth Observation →  💽 AI for EO data compression
            Lab Research         Applied Solutions     Field Applications    Global Monitoring              Edge solutions
 ```
 
 ```
-2015-2017: PhD - Deep Learning in Neurophysiology (KUL); Finished requirements early, but exited programme in 2 years with 4 publications  
-2017-2018: Data Scientist in the ML-team (Faktion); Various industry projects, won Hackathon (Activity Recognition in camera feeds)  
-2018-2024: PhD + *Postdoc* at MeBioS (KUL); Insect identification using AI, built GUI+API AWS server for annotation, classification and model serving
-2024-2026: R&D Engineer at VITO Remote-Sensing; models for "global" EO tasks like Cloud segmentation, Land-cover classification.
-2026-... : R&D Engineer at VITO Remote-Sensing; optimizing deep architectures for image compression and embedded solutions.  
+2015-2017: PhD - Deep Learning Researcher at KU Leuven; Modelling of neurophysiological data using deep convnets  
+2017-2018: Data Scientist at Faktion; Computer vision & Signal processing, won Hackathon (Activity Recognition in camera feeds)  
+2018-2024: PhD + *Postdoc* at KU Leuven; Insect identification using Computer Vision & Optical signal processing on edge, built production grade AWS-hosted app for annotation, classification and model serving  
+2024-2026: R&D Engineer at VITO; Deep learning models for global EO tasks (Cloud segmentation & Land-cover classification)  
+2026-... : R&D Engineer at VITO; Optimization of deep architectures (VQVAE2) for image compression and embedded solutions.  
 ```
 
 
@@ -179,4 +179,3 @@ Built a solid foundation in computing theory and educational information systems
 📖 [researchgate](https://www.researchgate.net/profile/Ioannis-Kalfas-2)  
   
 🌐 Stay connected through the following social media channels: [bluesky](https://bsky.app/profile/kalfasyan.bsky.social), [linkedin](https://www.linkedin.com/in/kalfasyan/), [github](https://github.com/kalfasyan/)  
-  
