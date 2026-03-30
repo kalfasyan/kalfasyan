@@ -117,7 +117,14 @@ Applied AI solutions for industry clients including predictive maintenance (Brid
 
 Studied deep CNNs and their resemblance to biological visual systems. Developed models to predict neuronal activity from artificial neuron activations.
 
-**4 publications** in top neuroscience journals | Presented at VSS conference (Florida, USA)
+**4 publications** in top neuroscience journals | Specialized in the deep learning components of all published research | Presented [my work](https://jov.arvojournals.org/article.aspx?articleid=2651681) at VSS conference (Florida, USA). List of papers below:  
+* **The ventral visual pathway represents animal appearance over animacy, unlike human behavior and deep neural networks.** Bracci, S., Ritchie, J. B., Kalfas, I., & Op de Beeck, H. P. (2019). *The Journal of Neuroscience*, 39(33), 6513-6525. [DOI](http://dx.doi.org/10.1523/JNEUROSCI.1714-18.2019)
+
+* **Representations of regular and irregular shapes by deep Convolutional Neural Networks, monkey inferotemporal neurons and human judgments.** Kalfas, I., Vinken, K., & Vogels, R. (2018). *PLOS Computational Biology*, 14(10), e1006557. [DOI](http://dx.doi.org/10.1371/journal.pcbi.1006557)
+
+* **Representation of semantic similarity in the left intraparietal sulcus: functional magnetic resonance imaging evidence.** Neyens, V., Bruffaerts, R., Liuzzi, A. G., Kalfas, I., Peeters, R., Keuleers, E., Vogels, R., De Deyne, S., Storms, G., Dupont, P., & Vandenberghe, R. (2017). *Frontiers in Human Neuroscience*, 11, 402. [DOI](http://dx.doi.org/10.3389/fnhum.2017.00402)
+
+* **Shape selectivity of middle superior temporal sulcus body patch neurons.** Kalfas, I., Kumar, S., & Vogels, R. (2017). *eNeuro*, 4(3). [DOI](http://dx.doi.org/10.1523/ENEURO.0113-17.2017)  
 
 </details>  
 
