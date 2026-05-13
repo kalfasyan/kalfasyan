@@ -1,326 +1,588 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<link rel="icon" href="images/tab.png">		
-		<title>Kalfasyan website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<style>
-			#about ul {
-				text-align: left;
-			}
-			#portofolio ul {
-				text-align: left;
-			}
-		</style>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ioannis Kalfas | AI Engineer & Machine Learning Research Scientist</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
 
-		<!-- Header -->
-			<div id="header">
+      :root {
+        --bg: #0d1117;
+        --surface: #161b22;
+        --surface-alt: #11161d;
+        --border: #30363d;
+        --text: #c9d1d9;
+        --text-muted: #8b949e;
+        --accent: #58a6ff;
+        --accent-green: #3fb950;
+      }
 
-				<div class="top">
+      * {
+        box-sizing: border-box;
+      }
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Yannis Kalfas</h1>
-							<p>Researcher, Data Scientist</p>
-						</div>
+      html {
+        scroll-behavior: smooth;
+      }
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#presentations" id="presentations-link"><span class="icon brands fa-slideshare">Presentations</span></a></li>
-								<li><a href="#publications" id="publications-link"><span class="icon solid fa-graduation-cap">Publications</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+      body {
+        margin: 0;
+        font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
 
-				</div>
+      .mono {
+        font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      }
 
-				<div class="bottom">
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="http://twitter.com/kalfasyan" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://github.com/kalfasyan" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/kalfasyan/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://scholar.google.com/citations?user=WXHakDkAAAAJ&hl=en&oi=ao" class="icon solid fa-user-graduate"><span class="label">Email</span></a></li>
-							<li><a href="mailto:kalfasyan@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
+      a:hover {
+        text-decoration: underline;
+      }
 
-				</div>
+      .container {
+        width: min(1100px, 92vw);
+        margin: 0 auto;
+      }
 
-			</div>
+      .nav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        backdrop-filter: blur(8px);
+        background: rgba(13, 17, 23, 0.9);
+        border-bottom: 1px solid var(--border);
+      }
 
-		<!-- Main -->
-			<div id="main">
+      .nav-inner {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem 1.1rem;
+        justify-content: center;
+        padding: 0.9rem 0;
+        font-size: 0.95rem;
+      }
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+      .nav a {
+        color: var(--text);
+      }
 
-							<header>
-								<h2 class="alt">Welcome!</a></h2>
-								<p>I am a Data Scientist who specializes in data analysis and modeling utilizing scientific libraries, 
-									artificial intelligence frameworks, and the UNIX shell. Both Academia and Industry experience.
-								</p>
-							</header>
+      .nav a:hover {
+        color: var(--accent);
+        text-decoration: none;
+      }
 
-							<footer>
-								<a href="https://github.com/kalfasyan/kalfasyan/raw/main/docs/yannisKalfasCV.pdf" class="image"><img src="images/cv.png" alt="" width="150" height="170"/></a>
-							</footer>
+      .hero {
+        position: relative;
+        overflow: hidden;
+        border-bottom: 1px solid var(--border);
+        background: radial-gradient(circle at 20% 20%, rgba(88, 166, 255, 0.2), transparent 40%),
+          radial-gradient(circle at 80% 0%, rgba(63, 185, 80, 0.15), transparent 35%),
+          var(--bg);
+      }
 
-						</div>
-					</section>
-				<!-- About Me -->
-				<section id="about" class="two">
-					<div class="container">
+      .hero::before {
+        content: '';
+        position: absolute;
+        inset: -40% -10% auto -10%;
+        height: 220%;
+        background: linear-gradient(120deg, rgba(88, 166, 255, 0.12), rgba(63, 185, 80, 0.08), rgba(88, 166, 255, 0.12));
+        animation: drift 12s ease-in-out infinite alternate;
+        pointer-events: none;
+      }
 
-						<header>
-							<h2>About Me</h2>
-						</header>
+      @keyframes drift {
+        from {
+          transform: translate3d(-2%, -1%, 0) scale(1);
+        }
+        to {
+          transform: translate3d(2%, 1%, 0) scale(1.05);
+        }
+      }
 
-						<a href="https://www.16personalities.com/istj-personality" class="image featured"><img src="images/banner_zita.jpg" alt="" /></a>
-						<ul class="container">
-							<p>
-								🧠 With a broad scientific background in computer science and machine learning, I have gained invaluable experience 
-								through my diverse research and work experiences. Working as a PhD researcher in Group Neurophysiology at KU Leuven 
-								for 2 years, I conducted extensive research on deep Convolutional Neural Networks and their similarities with the visual 
-								system. Then, I transitioned to the role of Data Scientist at Faktion, a startup in Antwerp. During my tenure, I gained 
-								proficiency in various industry practices and applications, including setting up end-to-end ML pipelines, training models 
-								for AI tasks, creating deployable Docker containers, and working with Cloud components. I also participated in two 
-								hackathons and was proud to win one of them. 📊
-							</p>
-							<p>
-								🧑‍🎓 I returned to KU Leuven to pursue applied research and obtain my PhD in Bioscience Engineering. Currently, as a Post-doctoral 
-								researcher at MeBioS, KU Leuven, I am working on building intelligent automated insect-monitoring systems that require high 
-								real-world performance based on data gathered by optical sensors, utilizing Machine Learning. Additionally, I am conducting 
-								research on hyperspectral imaging and supervising the theses of doctoral and master's level students. My role in each project 
-								spans multiple phases, from data collection and annotation to data analysis and model development. 🧑‍💻
-							</p>
+      .hero-content {
+        position: relative;
+        z-index: 1;
+        padding: 4.5rem 0 3.5rem;
+      }
 
-							<p>
-								💻 My future plans include gaining a deeper understanding of MLOps tools and techniques to deliver my trained models to the cloud 
-								or embed them in field agricultural devices, such as insect traps or imaging setups. I have already developed a Streamlit app for 
-								insect classification and annotation tasks to aid researchers with their workflow. At the moment I am building a FastAPI server to 
-								connect our deployed model with various partners. Furthermore, I am learning Hyperspectral Imaging techniques to model multi-dimensional 
-								data more efficiently, enabling me to take on even more complex projects in the future. 📈
-							</p>
-						</ul>
-					</div>
-				</section>
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 5vw, 3.4rem);
+        line-height: 1.12;
+      }
 
-				<!-- Portfolio -->
-					<section id="portfolio" class="three">
-						<div class="container">
+      .hero h2 {
+        margin: 0.8rem 0 0.6rem;
+        color: var(--accent);
+        font-size: clamp(1.1rem, 3vw, 1.5rem);
+        font-weight: 600;
+      }
 
-							<header>
-								<h2>Portfolio</h2>
-							</header>
+      .tagline {
+        margin: 0;
+        color: var(--text-muted);
+        max-width: 700px;
+      }
 
-							<p>
-								Here you can find a selection of personal projects I've worked on in the past, during my PhD:
-								<ul>
-									<ui class="container">
-										<li>
-											<strong>PhotoBox:</strong> Software for imaging insect sticky traps and classifying detected insects.
-										</li>
-										<li>
-											<strong>stickybugs-ai:</strong> Insect image data analysis & modelling for classification/recognition purposes.
-										</li>
-										<li>
-											<strong>Home Surveillance:</strong> Motion detection using OpenCV (Raspberry Pi compatible), alerting through pushbullet, served with flask.
-										</li>
-										<li>
-											<strong>DL Tutorial:</strong> Tutorial for MSc. students on getting started with DL and image classification.
-										</li>
-										<li>
-											<strong>Flying insect trap:</strong> GUI for a Raspberry Pi connected to an optical Wingbeat Sensor and a Camera.
-										</li>
-										<li>
-											<strong>Wingbeat Frequencies:</strong> Messy code for the article: "Towards in-field insect monitoring..".
-										</li>
-										<li>
-											<strong>Knowing-Neurons article:</strong> A short article I wrote about Visual neurons and Deep Neural Netwokrs.
-										</li>									
+      .social-grid {
+        margin-top: 1.6rem;
+        display: grid;
+        gap: 0.7rem;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      }
 
-									</ui>
-								</ul>
-							</p>
+      .social-link {
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: rgba(22, 27, 34, 0.82);
+        display: flex;
+        gap: 0.55rem;
+        align-items: center;
+        padding: 0.7rem 0.8rem;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/kalfasyan/photobox" class="image fit">
-											<img src="images/pbox.png" alt="" /></a>
-										<header>
-											<h3>PhotoBox</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://github.com/kalfasyan/stickybugs-ai" class="image fit">
-											<img src="images/sticky.png" alt="" /></a>
-										<header>
-											<h3>stickybugs-ai</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://knowingneurons.com/2018/11/07/deepneuralnetworks/" class="image fit">
-											<img src="images/neurons.jpg" alt="" /></a>
-										<header>
-											<h3>Knowing Neurons article</h3>
-										</header>
-									</article>									
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/kalfasyan/Home_Surveillance_with_Python" class="image fit">
-											<img src="images/homecam.png" alt="" /></a>
-										<header>
-											<h3>Home Surveillance</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://github.com/kalfasyan/pytorch-dl-tutorial-for-students" class="image fit">
-											<img src="images/tutorial.png" alt="" /></a>
-										<header>
-											<h3>Deep Learning tutorial for BSc. and MSc. students (KUL)</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/kalfasyan/flying_insect_trap" class="image fit">
-											<img src="images/flytrap.png" alt="" /></a>
-										<header>
-											<h3>Flying insect trap (private repo for now)</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://github.com/kalfasyan/wingbeat_frequencies" class="image fit">
-											<img src="images/wbt_freq.png" alt="" /></a>
-										<header>
-											<h3>Wingbeat Frequencies</h3>
-										</header>
-									</article>
-								</div>
-							</div>
+      .social-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 30px rgba(1, 4, 9, 0.35);
+        text-decoration: none;
+      }
 
-						</div>
-					</section>
+      .section {
+        padding: 2.6rem 0;
+      }
 
-				<!-- Presentations -->
-				<section id="presentations" class="four">
-					<div class="container">
+      .section-title {
+        margin: 0 0 1rem;
+        font-size: 1.5rem;
+      }
 
-						<header>
-							<h2>Presentations</h2>
-						</header>
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: var(--surface);
+        padding: 1.1rem;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
 
-						<p>Slides from either seminars or group meetings.</p>
+      .card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 14px 32px rgba(1, 4, 9, 0.38);
+      }
 
-						<div class="row">
-							<div class="col-3 col-12-mobile">
-								<article class="item">
-									<a href="https://kuleuven-my.sharepoint.com/:b:/g/personal/ioannis_kalfas_kuleuven_be/EY6e0YqbU0RAtsY_mMjUzhMBBLrqcxcMF4IHh5FpQKjx_w?e=aY99uV" class="image fit">
-										<img src="images/wbt_sensor.png" alt="" /></a>
-									<header>
-										<h3>Wingbeat signals</h3>
-									</header>
-								</article>
-							</div>
-							<div class="col-3 col-12-mobile">
-								<article class="item">
-									<a href="https://kuleuven-my.sharepoint.com/:b:/g/personal/ioannis_kalfas_kuleuven_be/EaJQcy48Jj9FumjRSZRIjhUBR3ja5fLgGRzNNV5J8swJ6A?e=UBW3gp" class="image fit">
-										<img src="images/insect_images.png" alt="" /></a>
-									<header>
-										<h3>Insect Images</h3>
-									</header>
-								</article>								
-							</div>
-							<div class="col-3 col-12-mobile">
-								<article class="item">
-									<a href="https://kuleuven-my.sharepoint.com/:p:/g/personal/ioannis_kalfas_kuleuven_be/Eagsf3t6-yhNnwt5sGdKhgoBZvyjfEDWlODaq5HM3blxwg?e=18BHhf" class="image fit">
-										<img src="images/anns.png" alt="" /></a>
-									<header>
-										<h3>Intro to ANNs (3Blue1Brown, B.Rohrer)</h3>
-									</header>
-								</article>								
-							</div>
-							<div class="col-3 col-12-mobile">
-								<article class="item">
-									<a href="https://kuleuven-my.sharepoint.com/:p:/g/personal/ioannis_kalfas_kuleuven_be/EU0Eej8STZpHuHqj15mlz_cBZFqTXVmKV8dINUQE4Evmyw?e=q56zpm" class="image fit">
-										<img src="images/phddefenselogo.png" alt="" /></a>
-									<header>
-										<h3>PhD Defense</h3>
-									</header>
-								</article>								
-							</div>							
-						</div>
+      .about {
+        font-size: 1.02rem;
+      }
 
-					</div>
-				</section>
+      .timeline {
+        display: grid;
+        gap: 1rem;
+      }
 
-				<!-- Publications -->
-				<section id="publications" class="three">
-					<div class="container">
+      .timeline-item {
+        position: relative;
+        padding-left: 1.1rem;
+        border-left: 2px solid var(--accent);
+      }
 
-						<header>
-							<h2>Publications</h2>
-						</header>
+      .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -7px;
+        top: 0.3rem;
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        background: var(--accent-green);
+      }
 
-						<a href='https://scholar.google.com/citations?user=WXHakDkAAAAJ&hl=en&oi=ao'><p>Click to see Google Scholar profile.</p></a>
+      .timeline-head {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        align-items: baseline;
+      }
 
-					</div>
-				</section>
+      .year {
+        color: var(--accent-green);
+        font-weight: 700;
+      }
 
-				<!-- Contact -->
-					<section id="contact" class="five">
-						<div class="container">
+      .current-work {
+        border-color: var(--accent);
+        background: linear-gradient(180deg, rgba(88, 166, 255, 0.08), rgba(22, 27, 34, 0.95));
+      }
 
-							<header>
-								<h2>Contact</h2>
-							</header>
+      .pipeline {
+        margin: 0.4rem 0 0;
+        color: var(--text-muted);
+      }
 
-							<p>
-								Feel free to send an email for any inquiries: kalfasyan [at] gmail [dot] com
-								<br> Or reach me at any social media. Links provided at the bottom left of this page.
-							</p>
+      .project-grid,
+      .edu-grid {
+        display: grid;
+        gap: 1rem;
+      }
 
-						</div>
-					</section>
+      .project-title {
+        margin: 0;
+        font-size: 1.05rem;
+      }
 
-			</div>
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        margin-top: 0.75rem;
+      }
 
-		<!-- Footer -->
-			<div id="footer">
+      .tag {
+        border: 1px solid var(--border);
+        padding: 0.2rem 0.55rem;
+        border-radius: 999px;
+        background: var(--surface-alt);
+        color: var(--text-muted);
+        font-size: 0.82rem;
+      }
 
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+      .pub-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 0.8rem;
+      }
 
-			</div>
+      .pub-title {
+        margin: 0;
+        font-weight: 600;
+      }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+      .pub-meta {
+        margin: 0.2rem 0 0;
+        color: var(--text-muted);
+        font-size: 0.95rem;
+      }
 
-	</body>
+      .tech-grid {
+        display: grid;
+        gap: 1rem;
+      }
+
+      .tech-group h3 {
+        margin: 0 0 0.55rem;
+        font-size: 1rem;
+        color: var(--accent);
+      }
+
+      .contact-grid {
+        display: grid;
+        gap: 1rem;
+      }
+
+      .scroll-top {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--surface);
+        color: var(--text);
+        cursor: pointer;
+        display: none;
+      }
+
+      .scroll-top.show {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      footer {
+        border-top: 1px solid var(--border);
+        color: var(--text-muted);
+        padding: 1.3rem 0 1.8rem;
+        text-align: center;
+        font-size: 0.9rem;
+      }
+
+      @media (min-width: 760px) {
+        .hero-content {
+          padding: 5.2rem 0 4.5rem;
+        }
+
+        .project-grid,
+        .edu-grid,
+        .contact-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-inner">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#tech">Tech</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="container hero-content">
+        <h1>Ioannis Kalfas</h1>
+        <h2>AI Engineer &amp; Machine Learning Research Scientist</h2>
+        <p class="tagline">Bridging the gap between cutting-edge research and real-world impact</p>
+        <div class="social-grid mono">
+          <a class="social-link" href="https://github.com/kalfasyan" target="_blank" rel="noopener noreferrer">🐙 GitHub</a>
+          <a class="social-link" href="https://www.linkedin.com/in/kalfasyan/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
+          <a class="social-link" href="https://linktr.ee/kalfasyan" target="_blank" rel="noopener noreferrer">🌐 Linktree</a>
+          <a class="social-link" href="https://bsky.app/profile/kalfasyan.bsky.social" target="_blank" rel="noopener noreferrer">🦋 Bluesky</a>
+          <a class="social-link" href="https://scholar.google.com/citations?user=WXHakDkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">🎓 Google Scholar</a>
+          <a class="social-link" href="https://orcid.org/0000-0002-9957-1502" target="_blank" rel="noopener noreferrer">🧬 ORCID</a>
+          <a class="social-link" href="https://www.researchgate.net/profile/Ioannis-Kalfas-2" target="_blank" rel="noopener noreferrer">📚 ResearchGate</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="about" class="section">
+        <h2 class="section-title">About</h2>
+        <article class="card about">
+          "I'm a multidisciplinary computational scientist and software engineer at the intersection of Computer Vision, Machine Learning and Bioscience Engineering, with 10 years of combined experience across academia, industry, and R&amp;D environments."
+        </article>
+      </section>
+
+      <section id="experience" class="section">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline mono">
+          <article class="card timeline-item">
+            <div class="timeline-head"><span class="year">2015–2017</span><strong>🧠 Deep Learning Researcher — KU Leuven</strong></div>
+            <p>Modelling neurophysiological data using deep convnets. 4 publications in top neuroscience journals.</p>
+          </article>
+          <article class="card timeline-item">
+            <div class="timeline-head"><span class="year">2017–2018</span><strong>🚀 Data Scientist — Faktion (Industry)</strong></div>
+            <p>Computer vision &amp; signal processing for industry clients (Bridgestone, Aliaxis, Vinci Energies). 🏆 Won hackathon on Activity Recognition.</p>
+          </article>
+          <article class="card timeline-item">
+            <div class="timeline-head"><span class="year">2018–2024</span><strong>🐞 PhD + Postdoc — KU Leuven, Bioscience Engineering</strong></div>
+            <p>Optical insect identification using AI + edge devices. Built production AWS API + web dashboard. 5 publications in high-impact journals.</p>
+          </article>
+          <article class="card timeline-item">
+            <div class="timeline-head"><span class="year">2024–2026</span><strong>🛰️ R&amp;D Engineer — VITO Remote Sensing (RSA team)</strong></div>
+            <p>AI models for EU Copernicus LCFM project (€11M). Global land cover maps at 10m resolution. Cloud segmentation for quality signal identification.</p>
+          </article>
+          <article class="card timeline-item">
+            <div class="timeline-head"><span class="year">2026–</span><strong>💽 R&amp;D Engineer — VITO Remote Sensing (AGES team, current)</strong></div>
+            <p>Optimizing CORSA model (VQVAE2) for satellite image compression on edge devices. Designing custom MLOps tools for experiment tracking and GPU cluster job management.</p>
+          </article>
+        </div>
+
+        <article class="card current-work" style="margin-top: 1rem">
+          <h3 style="margin-top: 0">Currently at VITO Remote Sensing — AGES Team</h3>
+          <p>Optimizing VITO's CORSA model — a lightweight satellite image compression model for edge devices.</p>
+          <p class="pipeline mono">🛰️ Satellite Images → 🔄 CORSA Compression (Edge) → 🖥️ On-Prem GPU Cluster</p>
+          <p>Also designing internal MLOps tools for experiment tracking and GPU job scheduling.</p>
+          <p>Previously: EU Copernicus LCFM project — global land cover maps at 10m resolution (annual updates, planetary scale).</p>
+          <p class="pipeline mono">🛰️ Satellite Data → ☁️ AI Cloud Detection → 📊 Quality Composites → 🗺️ Global Land Cover Maps</p>
+          <p>
+            <a href="https://blog.vito.be/remotesensing/democratising-eo-intelligence-corsa-and-major-tom-now-live-on-terrascope" target="_blank" rel="noopener noreferrer">CORSA blog post</a>
+            · <a href="https://land.copernicus.eu/en/news/lcfm-a-new-chapter-in-global-land-cover-monitoring" target="_blank" rel="noopener noreferrer">LCFM project</a>
+            · <a href="https://esa-worldcover.org/en" target="_blank" rel="noopener noreferrer">ESA WorldCover</a>
+          </p>
+        </article>
+      </section>
+
+      <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <article class="card">
+            <h3 class="project-title">desto</h3>
+            <p>Web dashboard &amp; CLI for managing scripts in tmux sessions. Full-stack app with real-time system monitoring, live log viewing, script scheduling.</p>
+            <p><a href="https://github.com/kalfasyan/desto" target="_blank" rel="noopener noreferrer">GitHub →</a></p>
+            <div class="tags"><span class="tag">Web Dev</span><span class="tag">CLI</span><span class="tag">DevOps</span><span class="tag">NiceGUI</span></div>
+          </article>
+          <article class="card">
+            <h3 class="project-title">vresto</h3>
+            <p>Python interface for Copernicus Sentinel data discovery. Interactive map for visual searching, dual backends (OData/STAC), professional CLI/API.</p>
+            <p><a href="https://github.com/kalfasyan/vresto" target="_blank" rel="noopener noreferrer">GitHub →</a></p>
+            <div class="tags"><span class="tag">Satellite Data</span><span class="tag">Python</span><span class="tag">STAC</span></div>
+          </article>
+          <article class="card">
+            <h3 class="project-title">filoma</h3>
+            <p>File organization &amp; management automation for ML datasets. Categorizes and cleans large-scale research datasets; optimizes pre-processing workflows.</p>
+            <p><a href="https://github.com/kalfasyan/filoma" target="_blank" rel="noopener noreferrer">GitHub →</a></p>
+            <div class="tags"><span class="tag">Data Management</span><span class="tag">Python</span></div>
+          </article>
+          <article class="card">
+            <h3 class="project-title">plakakia</h3>
+            <p>Python image tiling library for computer vision tasks. High-performance tiling for object detection/segmentation using multiprocessing + numpy.</p>
+            <p><a href="https://github.com/kalfasyan/plakakia" target="_blank" rel="noopener noreferrer">GitHub →</a></p>
+            <div class="tags"><span class="tag">Computer Vision</span><span class="tag">Python</span></div>
+          </article>
+          <article class="card">
+            <h3 class="project-title">Home_Surveillance_with_Python</h3>
+            <p>Edge AI motion detection surveillance system on Raspberry Pi with cloud-notified alerts.</p>
+            <p><a href="https://github.com/kalfasyan/Home_Surveillance_with_Python" target="_blank" rel="noopener noreferrer">GitHub →</a></p>
+            <div class="tags"><span class="tag">IoT</span><span class="tag">Edge AI</span><span class="tag">Raspberry Pi</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <h2 class="section-title">Publications</h2>
+        <article class="card">
+          <ul class="pub-list">
+            <li>
+              <p class="pub-title">The ventral visual pathway represents animal appearance over animacy, unlike human behavior and deep neural networks</p>
+              <p class="pub-meta">Bracci S., Ritchie J.B., Kalfas I., Op de Beeck H.P. · The Journal of Neuroscience 39(33), 6513-6525 · 2019</p>
+            </li>
+            <li>
+              <p class="pub-title">Towards automatic insect monitoring on witloof chicory fields using sticky plate image analysis</p>
+              <p class="pub-meta">Kalfas I., De Ketelaere B., Bunkens K., Saeys W. · Ecological Informatics 75, 102037 · 2023</p>
+            </li>
+            <li>
+              <p class="pub-title">Shape selectivity of middle superior temporal sulcus body patch neurons</p>
+              <p class="pub-meta">Kalfas I., Kumar S., Vogels R. · eNeuro 4(3) · 2017</p>
+            </li>
+            <li>
+              <p class="pub-title">A fresh look at computer vision for industrial quality control</p>
+              <p class="pub-meta">De Ketelaere B., Wouters N., Kalfas I., Van Belleghem R., Saeys W. · Quality Engineering 34(1), 152-158 · 2022</p>
+            </li>
+            <li>
+              <p class="pub-title">Representations of regular and irregular shapes by deep Convolutional Neural Networks, monkey inferotemporal neurons and human judgments</p>
+              <p class="pub-meta">Kalfas I., Vinken K., Vogels R. · PLOS Computational Biology 14(10), e1006557 · 2018</p>
+            </li>
+            <li>
+              <p class="pub-title">Representation of semantic similarity in the left intraparietal sulcus: functional magnetic resonance imaging evidence</p>
+              <p class="pub-meta">Neyens V., Bruffaerts R., Liuzzi A.G., Kalfas I., Peeters R., Keuleers E., et al. · Frontiers in Human Neuroscience 11, 402 · 2017</p>
+            </li>
+            <li>
+              <p class="pub-title">Optical identification of fruitfly species based on their wingbeats using convolutional neural networks</p>
+              <p class="pub-meta">Kalfas I., De Ketelaere B., Beliën T., Saeys W. · Frontiers in Plant Science 13, 812506 · 2022</p>
+            </li>
+            <li>
+              <p class="pub-title">An introduction to artificial intelligence in machine vision for postharvest detection of disorders in horticultural products</p>
+              <p class="pub-meta">Tempelaere A., De Ketelaere B., He J., Kalfas I., Pieters M., Saeys W., et al. · Postharvest Biology and Technology 206, 112576 · 2023</p>
+            </li>
+            <li>
+              <p class="pub-title">Towards in-field insect monitoring based on wingbeat signals: The importance of practice oriented validation strategies</p>
+              <p class="pub-meta">Kalfas I., De Ketelaere B., Saeys W. · Computers and Electronics in Agriculture 180, 105849 · 2021</p>
+            </li>
+          </ul>
+          <p style="margin: 1rem 0 0">
+            <strong>PhD thesis (KU Leuven):</strong>
+            <a href="https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=lirias3887120&amp;context=SearchWebhook&amp;vid=32KUL_KUL:Lirias&amp;lang=en&amp;search_scope=lirias_profile&amp;adaptor=SearchWebhook&amp;tab=LIRIAS&amp;query=any%2Ccontains%2CLIRIAS3887120&amp;offset=0" target="_blank" rel="noopener noreferrer">View thesis</a>
+          </p>
+        </article>
+      </section>
+
+      <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-grid">
+          <article class="card">
+            <p class="mono"><strong>2018–2022</strong></p>
+            <p><strong>PhD in Bioscience Engineering — KU Leuven, Belgium 🇧🇪</strong><br />Focus: Optical insect identification using signal processing, computer vision, AI/ML/DL</p>
+          </article>
+          <article class="card">
+            <p class="mono"><strong>2015–2017</strong></p>
+            <p><strong>PhD Research (Neurophysiology Lab) — KU Leuven, Belgium 🇧🇪</strong><br />Requirements fulfilled early; exited programme. Deep learning models for biological neurons.</p>
+          </article>
+          <article class="card">
+            <p class="mono"><strong>2015</strong></p>
+            <p><strong>MSc Machine Learning — KTH Royal Institute of Technology, Stockholm, Sweden 🇸🇪</strong><br />Specialization: Computational Neuroscience &amp; Spiking Neural Networks</p>
+            <p><a href="https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A868833&amp;dswid=-157" target="_blank" rel="noopener noreferrer">Thesis link</a></p>
+          </article>
+          <article class="card">
+            <p class="mono"><strong>2013</strong></p>
+            <p><strong>BSc Computer Science — Aristotle University of Thessaloniki, Greece 🇬🇷</strong></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tech" class="section">
+        <h2 class="section-title">Tech</h2>
+        <article class="card tech-grid">
+          <div class="tech-group">
+            <h3>AI/ML</h3>
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">scikit-learn</span><span class="tag">SciPy</span><span class="tag">NumPy</span><span class="tag">Pandas</span><span class="tag">OpenCV</span><span class="tag">YOLO</span>
+            </div>
+          </div>
+          <div class="tech-group">
+            <h3>Web &amp; APIs</h3>
+            <div class="tags">
+              <span class="tag">FastAPI</span><span class="tag">Flask</span><span class="tag">Streamlit</span><span class="tag">Solara</span><span class="tag">NiceGUI</span><span class="tag">Bash</span>
+            </div>
+          </div>
+          <div class="tech-group">
+            <h3>DevOps &amp; Cloud</h3>
+            <div class="tags">
+              <span class="tag">AWS</span><span class="tag">Docker</span><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">GitLab</span><span class="tag">Hadoop</span><span class="tag">Spark</span><span class="tag">Anaconda</span><span class="tag">Raspberry Pi</span>
+            </div>
+          </div>
+          <div class="tech-group">
+            <h3>Data</h3>
+            <div class="tags">
+              <span class="tag">Hyperspectral Imaging</span><span class="tag">Satellite Data</span><span class="tag">IoT Sensors</span><span class="tag">Big Data</span><span class="tag">Matplotlib</span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <article class="card">
+            <p><strong>Email</strong><br /><span class="mono">kalfasyan[at]gmail[dot]com</span></p>
+            <p><strong>Linktree</strong><br /><a href="https://linktr.ee/kalfasyan" target="_blank" rel="noopener noreferrer">https://linktr.ee/kalfasyan</a></p>
+          </article>
+          <article class="card">
+            <p><strong>Academic</strong><br />
+              <a href="https://orcid.org/0000-0002-9957-1502" target="_blank" rel="noopener noreferrer">ORCID</a> ·
+              <a href="https://scholar.google.com/citations?user=WXHakDkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> ·
+              <a href="https://www.researchgate.net/profile/Ioannis-Kalfas-2" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+            </p>
+            <p><strong>Social</strong><br />
+              <a href="https://bsky.app/profile/kalfasyan.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a> ·
+              <a href="https://www.linkedin.com/in/kalfasyan/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+              <a href="https://github.com/kalfasyan" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <button type="button" class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+
+    <footer>© 2026 Ioannis Kalfas · kalfasyan.github.io</footer>
+
+    <script>
+      const scrollTopBtn = document.getElementById('scrollTopBtn');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          scrollTopBtn.classList.add('show');
+        } else {
+          scrollTopBtn.classList.remove('show');
+        }
+      });
+      scrollTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
+  </body>
 </html>
