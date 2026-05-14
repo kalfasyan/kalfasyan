@@ -2,7 +2,7 @@
 
 > *Bridging the gap between cutting-edge research and real-world impact*
 
-*For a summary of links to various online profiles, you can check out my [linktree](https://linktr.ee/kalfasyan).*
+*For my online CV, you may also [check out my portofolio page](https://kalfasyan.github.io/kalfasyan), or my [linktree](https://linktr.ee/kalfasyan) for a summary of links to various online profiles.*  
 
 ## 🎯 About Me
 
