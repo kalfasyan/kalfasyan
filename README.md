@@ -2,11 +2,11 @@
 
 > *Bridging the gap between cutting-edge research and real-world impact*
 
-*For my online CV, you may also [check out my portfolio page](https://kalfasyan.github.io/kalfasyan), or my [linktree](https://linktr.ee/kalfasyan) for a summary of links to various online profiles.*  
+*For my full CV, see my [portfolio page](https://kalfasyan.github.io/kalfasyan) or my [linktree](https://linktr.ee/kalfasyan) for a summary of links to my other online profiles.*  
 
 ## 🎯 About Me
 
-I'm a **multidisciplinary software engineer and computational scientist** at the intersection of Computer Vision, Machine Learning and Bioscience Engineering, with **10 years of combined experience** across industry, R&D, and academic environments.  
+I'm a **multidisciplinary software engineer and computational scientist** at the intersection of Computer Vision, Machine Learning, and Bioscience Engineering, with **10 years of combined experience** across industry, R&D, and academic environments.  
   
 #### **💼 My professional journey** 
 *10 years of experience across 5 industry and research environments*
@@ -21,7 +21,7 @@ I'm a **multidisciplinary software engineer and computational scientist** at the
 ```
 2015-2017: Deep Learning Researcher (PhD) at KU Leuven; Modelling of neurophysiological data using deep convnets  
 2017-2018: Data Scientist at Faktion; Computer vision & Signal processing, won Hackathon (Activity Recognition in camera feeds)  
-2018-2024: PhD + *Postdoc* at KU Leuven; Built a production-grade, AWS-hosted app for insect identification (annotation, classification & model serving), using Computer Vision & Optical signal processing on edge  
+2018-2024: PhD + Postdoc at KU Leuven; Built a production-grade, AWS-hosted app for insect identification (annotation, classification & model serving), using Computer Vision & Optical signal processing on edge  
 2024-2026: R&D Engineer at VITO; Deep learning models for global EO tasks (Cloud segmentation & Land-cover classification)  
 2026-... : R&D Engineer at VITO; Optimization of deep architectures (VQVAE2) for image compression and embedded solutions.  
 ```
@@ -33,7 +33,7 @@ Currently, I'm optimizing VITO's [CORSA model](https://blog.vito.be/remotesensin
 📡 Satellite Images → 🔄 CORSA Compression (Edge) → 🖥️ On-Prem GPU Cluster
 ↳ 🔧 MLOps Tools: Experiment Tracking & Job Management
 ```
-Before joining AGES, I was part of the RSA team at VITO, developing AI models for the EU’s Copernicus **[Land Cover and Forest Monitoring (LCFM)](https://land.copernicus.eu/en/news/lcfm-a-new-chapter-in-global-land-cover-monitoring)** project (**€11M budget**). Our team had previously delivered the [ESA WorldCover products](https://esa-worldcover.org/en). I built multi-stage AI pipelines to process satellite data, producing global land cover maps at **10m resolution—ten times sharper than before**. My focus was on cloud segmentation models for quality signal identification, maintaining code repositories (soon to be open-sourced), and deploying classification models that generate annual land cover maps, **directly supporting EU environmental policy and climate monitoring**.  
+Before joining AGES, I was part of the RSA team at VITO, developing AI models for the EU's Copernicus **[Land Cover and Forest Monitoring (LCFM)](https://land.copernicus.eu/en/news/lcfm-a-new-chapter-in-global-land-cover-monitoring)** project (**€11M budget**). Our team had previously delivered the [ESA WorldCover products](https://esa-worldcover.org/en). I built multi-stage AI pipelines to process satellite data, producing global land cover maps at **10m resolution—ten times sharper than before**. My focus was on cloud segmentation models for quality signal identification, maintaining code repositories (soon to be open-sourced), and deploying classification models that generate annual land cover maps, **directly supporting EU environmental policy and climate monitoring**.  
 
 ```
 🛰️ Satellite Data → ☁️ AI Cloud Detection → 📊 Quality Composites → 🗺️ Global Land Cover Maps
@@ -89,7 +89,7 @@ Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing
 </details>
 
 <details>
-<summary><strong>🐞 Bioscience Engineering at KU Leuven</strong> <em>(PhD & Postdoc; 4 + 1.5 years; 2018-2022 + 2022-2024)</em></summary>
+<summary><strong>🐞 Bioscience Engineering at KU Leuven</strong> <em>(PhD & Postdoc; 4 + 2 years; 2018-2022 + 2022-2024)</em></summary>
 
 *PhD Focus:* [Optical Insect Identification using AI](https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=lirias3887120&context=SearchWebhook&vid=32KUL_KUL:Lirias&lang=en&search_scope=lirias_profile&adaptor=SearchWebhook&tab=LIRIAS&query=any%2Ccontains%2CLIRIAS3887120&offset=0)
 
