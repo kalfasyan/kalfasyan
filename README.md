@@ -26,24 +26,31 @@ I'm a **multidisciplinary software engineer and computational scientist** at the
 2026-... : R&D Engineer at VITO; Optimization of deep architectures (VQVAE2) for image compression and embedded solutions.  
 ```
 
-### NEW!! 🌊 ECMWF Code for Earth 2026
+### 💡🆕 🌊 ECMWF Code for Earth 2026
 
 In the summer of 2026 I took part in [ECMWF Code for Earth](https://codeforearth.ecmwf.int), an innovation programme in which developer teams work with ECMWF mentors on open-source Earth-science software. Together with [Stylianos Lagaras](https://github.com/opageo), I worked on a **scalable STAC/Zarr pipeline for ML-ready, multi-source flood inundation observations**. The coding phase ran from May to August 2026.
 
 ##### <img src="https://github.com/opageo/atlantis/raw/main/docs/assets/logo.png" alt="Atlantis logo" height="30" align="absmiddle"> [Project Atlantis](https://github.com/opageo/atlantis)
-ML-ready archive of satellite-derived flood inundation observations  
-- Harmonises flood observations from **VIIRS** (optical), **MODIS** (optical) and **GFM** (Sentinel-1 SAR) onto a common 1-arcmin grid.
-- Offers a CLI, a Python API and a consolidated **Zarr/STAC archive** for ML workflows, with a worked example on the 2024 Valencia floods.
+<details>
+<summary><strong>🌊 Project details & mentors</strong></summary>
+
+ML-ready archive of satellite-derived flood inundation observations
+
+* Harmonises flood observations from **VIIRS** (optical), **MODIS** (optical) and **GFM** (Sentinel-1 SAR) onto a common 1-arcmin grid.
+* Offers a CLI, a Python API and a consolidated **Zarr/STAC archive** for ML workflows, with a worked example on the 2024 Valencia floods.
 
 🙏 **Mentors**, with thanks for their guidance throughout:
-- [Gianpaolo Balsamo](https://github.com/gpbalsamo) (ECMWF, ERA5 and land-surface modelling)
-- [Calum Baugh](https://github.com/calumbaugh) (ECMWF, hydrology)
-- [Kenza Tazi](https://github.com/kenzaxtazi) (ECMWF, ML)
-- [Andreas Grafberger](https://github.com/andreas-grafberger) (ECMWF, DevOps)
+
+* [Gianpaolo Balsamo](https://github.com/gpbalsamo) (ECMWF, ERA5 and land-surface modelling)
+* [Calum Baugh](https://github.com/calumbaugh) (ECMWF, hydrology)
+* [Kenza Tazi](https://github.com/kenzaxtazi) (ECMWF, ML)
+* [Andreas Grafberger](https://github.com/andreas-grafberger) (ECMWF, DevOps)
 
 ```
 🛰️ VIIRS + MODIS + GFM → 🧮 Harmonised 1-arcmin grid → 🗄️ Zarr/STAC archive → 🤖 ML-ready flood data
 ```
+
+</details>
 
 ### **🌍 Currently Working On at [VITO Remote Sensing](https://remotesensing.vito.be/)** 
 Currently, I'm optimizing VITO's [CORSA model](https://blog.vito.be/remotesensing/democratising-eo-intelligence-corsa-and-major-tom-now-live-on-terrascope) (lightweight satellite image compression on edge devices) in the AGES (Applied GeoAI and Edge Solutions) team of VITO's Remote Sensing unit. In parallel, I'm designing custom MLOps tools for internal use, supporting experiment tracking and GPU cluster (on-prem) job management.  
