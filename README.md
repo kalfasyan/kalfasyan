@@ -67,7 +67,7 @@ Before joining AGES, I was part of the RSA team at VITO, developing AI models fo
   
 ----
 
-## 🌐 Open Source Contributions  
+## 🌐 Open Source Projects  
 Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing, IoT, Python, Flask, NiceGUI, Solara, Streamlit*
 
 **[`desto`](https://github.com/kalfasyan/desto)** - Web dashboard and CLI for managing scripts in tmux sessions  
