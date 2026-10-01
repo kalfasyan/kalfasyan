@@ -7,30 +7,39 @@
 ## 🎯 About Me
 
 I'm a **multidisciplinary software engineer and computational scientist** at the intersection of Computer Vision, Machine Learning, and Bioscience Engineering, with **10 years of combined experience** across industry, R&D, and academic environments.  
-  
-#### **💼 My professional journey** 
-*10 years of experience across 5 industry and research environments*
-  
-**Timeline in short (see below for more details):**  
+
+### 🧭 My professional journey
+*11 years of experience across 5 industry and research environments. Full details under Background below.*
+
+| Years | Area | Role & highlights |
+|:--|:--|:--|
+| 2015–2017 | 🧠 **AI in Neurophysiology**<br><sub>Lab research</sub> | **Deep Learning Researcher (PhD)**, KU Leuven · Modelling of neurophysiological data using deep convnets |
+| 2017–2018 | 🚀 **Industry AI**<br><sub>Applied solutions</sub> | **Data Scientist**, Faktion · Computer vision & signal processing; won hackathon (activity recognition in camera feeds) |
+| 2018–2024 | 🐞 **Agricultural AI**<br><sub>Field applications</sub> | **PhD + Postdoc**, KU Leuven · Built a production-grade, AWS-hosted app for insect identification (annotation, classification & model serving), using computer vision & optical signal processing on edge |
+| 2024–2026 | 🛰️ **AI for Earth Observation**<br><sub>Global monitoring</sub> | **R&D Engineer**, VITO · Deep learning models for global EO tasks (cloud segmentation & land-cover classification) |
+| 2026– | 💽 **AI for EO data compression**<br><sub>Edge solutions</sub> | **R&D Engineer**, VITO · Optimization of deep architectures (VQVAE2) for image compression and embedded solutions |
+
+## 🌍 Current & Recent Work
+
+### 🛰️ R&D Engineer at [VITO Remote Sensing](https://remotesensing.vito.be/)
+
+Currently, I'm optimizing VITO's [CORSA model](https://blog.vito.be/remotesensing/democratising-eo-intelligence-corsa-and-major-tom-now-live-on-terrascope) (lightweight satellite image compression on edge devices) in the AGES (Applied GeoAI and Edge Solutions) team of VITO's Remote Sensing unit. In parallel, I'm designing custom MLOps tools for internal use, supporting experiment tracking and GPU cluster (on-prem) job management.  
 ```
-  2015 ━━━━━━━━━━━━━━━━━━━━━━2017━━━━━━━━━━━━━━━━2018━━━━━━━━━━━━━━━━━━━━2024━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2026  
-🧠 AI in Neurophysiology  →  🚀 Industry AI  →  🐞 Agricultural AI  →  🛰️ AI for Earth Observation →  💽 AI for EO data compression
-           Lab Research         Applied Solutions     Field Applications    Global Monitoring              Edge solutions
+📡 Satellite Images → 🔄 CORSA Compression (Edge) → 🖥️ On-Prem GPU Cluster
+↳ 🔧 MLOps Tools: Experiment Tracking & Job Management
 ```
+Before joining AGES, I was part of the RSA team at VITO, developing AI models for the EU's Copernicus **[Land Cover and Forest Monitoring (LCFM)](https://land.copernicus.eu/en/news/lcfm-a-new-chapter-in-global-land-cover-monitoring)** project (**€11M budget**). Our team had previously delivered the [ESA WorldCover products](https://esa-worldcover.org/en). I built multi-stage AI pipelines to process satellite data, producing global land cover maps at **10m resolution—ten times sharper than before**. My focus was on cloud segmentation models for quality signal identification, maintaining code repositories (soon to be open-sourced), and deploying classification models that generate annual land cover maps, **directly supporting EU environmental policy and climate monitoring**.  
 
 ```
-2015-2017: Deep Learning Researcher (PhD) at KU Leuven; Modelling of neurophysiological data using deep convnets  
-2017-2018: Data Scientist at Faktion; Computer vision & Signal processing, won Hackathon (Activity Recognition in camera feeds)  
-2018-2024: PhD + Postdoc at KU Leuven; Built a production-grade, AWS-hosted app for insect identification (annotation, classification & model serving), using Computer Vision & Optical signal processing on edge  
-2024-2026: R&D Engineer at VITO; Deep learning models for global EO tasks (Cloud segmentation & Land-cover classification)  
-2026-... : R&D Engineer at VITO; Optimization of deep architectures (VQVAE2) for image compression and embedded solutions.  
-```
+🛰️ Satellite Data → ☁️ AI Cloud Detection → 📊 Quality Composites → 🗺️ Global Land Cover Maps
+                                    10m Resolution • Annual Updates • Planetary Scale
+```  
 
-### 💡🆕 🌊 ECMWF Code for Earth 2026
+### 🌊 ECMWF Code for Earth 2026
 
 In the summer of 2026 I took part in [ECMWF Code for Earth](https://codeforearth.ecmwf.int), an innovation programme in which developer teams work with ECMWF mentors on open-source Earth-science software. Together with [Stylianos Lagaras](https://github.com/opageo), I worked on a **scalable STAC/Zarr pipeline for ML-ready, multi-source flood inundation observations**. The coding phase ran from May to August 2026.
 
-##### <img src="https://github.com/opageo/atlantis/raw/main/docs/assets/logo.png" alt="Atlantis logo" height="30" align="absmiddle"> [Project Atlantis](https://github.com/opageo/atlantis)
+#### <img src="https://github.com/opageo/atlantis/raw/main/docs/assets/logo.png" alt="Atlantis logo" height="30" align="absmiddle"> [Project Atlantis](https://github.com/opageo/atlantis)
 <details>
 <summary><strong>🌊 Project details & mentors</strong></summary>
 
@@ -52,22 +61,7 @@ ML-ready archive of satellite-derived flood inundation observations
 
 </details>
 
-### **🌍 Currently Working On at [VITO Remote Sensing](https://remotesensing.vito.be/)** 
-Currently, I'm optimizing VITO's [CORSA model](https://blog.vito.be/remotesensing/democratising-eo-intelligence-corsa-and-major-tom-now-live-on-terrascope) (lightweight satellite image compression on edge devices) in the AGES (Applied GeoAI and Edge Solutions) team of VITO's Remote Sensing unit. In parallel, I'm designing custom MLOps tools for internal use, supporting experiment tracking and GPU cluster (on-prem) job management.  
-```
-📡 Satellite Images → 🔄 CORSA Compression (Edge) → 🖥️ On-Prem GPU Cluster
-↳ 🔧 MLOps Tools: Experiment Tracking & Job Management
-```
-Before joining AGES, I was part of the RSA team at VITO, developing AI models for the EU's Copernicus **[Land Cover and Forest Monitoring (LCFM)](https://land.copernicus.eu/en/news/lcfm-a-new-chapter-in-global-land-cover-monitoring)** project (**€11M budget**). Our team had previously delivered the [ESA WorldCover products](https://esa-worldcover.org/en). I built multi-stage AI pipelines to process satellite data, producing global land cover maps at **10m resolution—ten times sharper than before**. My focus was on cloud segmentation models for quality signal identification, maintaining code repositories (soon to be open-sourced), and deploying classification models that generate annual land cover maps, **directly supporting EU environmental policy and climate monitoring**.  
-
-```
-🛰️ Satellite Data → ☁️ AI Cloud Detection → 📊 Quality Composites → 🗺️ Global Land Cover Maps
-                                    10m Resolution • Annual Updates • Planetary Scale
-```  
-  
-----
-
-## 🌐 Open Source Projects  
+## 🌐 Open Source Projects
 Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing, IoT, Python, Flask, NiceGUI, Solara, Streamlit*
 
 **[`desto`](https://github.com/kalfasyan/desto)** - Web dashboard and CLI for managing scripts in tmux sessions  
@@ -91,22 +85,30 @@ Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing
 **[`Home_Surveillance_with_Python`](https://github.com/kalfasyan/Home_Surveillance_with_Python)** - Motion detection surveillance system  
 ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/Home_Surveillance_with_Python?style=flat-square&logo=github)
 - End-to-end Edge AI product featuring real-time motion analysis on Raspberry Pi with cloud-notified alerts.
-  
+
+## 🛠️ Tech Stack
+
+**AI/ML:** Computer Vision • Deep Learning • CNNs • YOLO • Time-Series Analysis  
+**Cloud:** AWS • Docker • FastAPI • Web GUIs (Streamlit, Solara, NiceGUI...)  
+**Data:** Hyperspectral Imaging • Satellite Data • IoT Sensors • Big Data Processing  
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,pytorch,github,sklearn,opencv,fastapi,ubuntu,linux,bash,vscode,aws,anaconda,raspberrypi" />
   </a>
 </p>
 
-----
-## Background
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) 
 
-### :briefcase: Professional Experience
+## 🗂️ Background
+
+### 💼 Professional Experience
   
 <details>
 <summary><strong>🛰️ Remote Sensing & AI at VITO</strong> <em>(Current; 2024-)</em></summary>
 
-- Develop reliable earth land cover classification systems through [LCFM project](https://remotesensing.vito.be/services/copernicus-lcfm)
+- **AGES team (2026-):** Optimize [CORSA](https://blog.vito.be/remotesensing/democratising-eo-intelligence-corsa-and-major-tom-now-live-on-terrascope), VITO's lightweight satellite image compression model for edge devices, and design custom MLOps tools for experiment tracking and on-prem GPU cluster job management
+- **RSA team (2024-2026):** Developed reliable earth land cover classification systems through [LCFM project](https://remotesensing.vito.be/services/copernicus-lcfm)
 - Apply hyperspectral satellite data analysis and ML models for environmental datasets
 - Work with cloud services, Hadoop, Spark, and AWS for large-scale processing
 - Contribute to EU Commission projects for sustainable development and climate change mitigation
@@ -153,10 +155,7 @@ Specialized in the deep learning components of all published research | **4 publ
 
 </details>  
 
----
-  
-  
-### 🎓 Studies  
+### 🎓 Education
   
 <details>
 <summary><strong>🐞 PhD in Bioscience Engineering</strong> <em>(KU Leuven, Belgium 🇧🇪; 4 years; 2018-2022)</em></summary>
@@ -188,18 +187,8 @@ Specialized in Computational Neuroscience and Spiking Neural Networks
 Built a solid foundation in computing theory and educational information systems
 
 </details>
-  
----
 
-### Tech Stack Highlights
-**AI/ML:** Computer Vision • Deep Learning • CNNs • YOLO • Time-Series Analysis  
-**Cloud:** AWS • Docker • FastAPI • Web GUIs (Streamlit, Solara, NiceGUI...)  
-**Data:** Hyperspectral Imaging • Satellite Data • IoT Sensors • Big Data Processing  
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) 
-  
-∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿
-## Contact
+## 📬 Contact
 
 🌱 I'm always interested to learn about how Artificial Intelligence can improve our lives.  
 💬 To reach out, send an email at kalfasyan[at]gmail[dot]com  
