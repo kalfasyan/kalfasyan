@@ -24,6 +24,7 @@ python3 -m http.server 8000
 - All editing happens here. Never edit the `kalfasyan.github.io` repo directly; every publish overwrites it.
 - A new top-level file or folder that needs to go live must be added to both the `cp` line and the `paths:` trigger, or it won't be published. Examples are a separate `css/` dir, a Google verification file or a `CNAME` file.
 - `robots.txt` points crawlers at `sitemap.xml`. If you add another page to the site, add it to the sitemap as well.
+- Google Search Console keeps checking ownership through the `google-site-verification` meta tag in `<head>` and the `google56cf7b978acf8a15.html` file. Don't remove either of them.
 - This repo's own GitHub Pages site also serves the page at `/kalfasyan/`. The first `<script>` in `<head>` redirects that URL to the root site. It only fires on the `kalfasyan.github.io` hostname, so local previews are unaffected.
 
 ## index.html architecture
