@@ -8,6 +8,8 @@ on:
     branches: [main]
     paths:
       - index.html
+      - robots.txt
+      - sitemap.xml
       - images/**
       - docs/**
       - .github/workflows/publish-root-site.yml
@@ -26,7 +28,7 @@ jobs:
       - name: Collect site files
         run: |
           mkdir _site
-          cp -r index.html images docs _site/
+          cp -r index.html robots.txt sitemap.xml images docs _site/
 
       - name: Push to kalfasyan.github.io
         uses: peaceiris/actions-gh-pages@v4
