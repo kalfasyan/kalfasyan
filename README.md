@@ -6,7 +6,7 @@
 
 ## 🎯 About Me
 
-I'm a **multidisciplinary software engineer and computational scientist** at the intersection of Computer Vision, Machine Learning, and Bioscience Engineering, with **10 years of combined experience** across industry, R&D, and academic environments.  
+I'm a **multidisciplinary software engineer and computational scientist** at the intersection of Computer Vision, Machine Learning, and Bioscience Engineering, with **11 years of combined experience** across industry, R&D, and academic environments.  
 
 ### 🧭 My professional journey
 *11 years of experience across 5 industry and research environments. Full details under Background below.*
