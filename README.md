@@ -61,6 +61,32 @@ ML-ready archive of satellite-derived flood inundation observations
 
 </details>
 
+### 🏠 [selfhostit](https://selfhostit.org/): small apps you run at home
+
+Outside my day job, I build **[selfhostit](https://github.com/selfhostit)**, a growing family of free, MIT-licensed apps for everyday household life that run on **your own hardware**, from a Raspberry Pi to a NAS. No subscriptions, no cloud accounts, no tracking: *your data never leaves the house.* It's where I get to own the whole stack, from product design and UX to backend, security and release engineering.
+
+| App | What it does |
+|:--|:--|
+| 💸 **[Splitwiz](https://github.com/selfhostit/splitwiz)** | Split shared costs with a partner or roommate, with CSV import |
+| 🗳️ **[should-we](https://github.com/selfhostit/should-we)** | Pick one option together: everyone weighs what matters and you get one ranking |
+| 🌸 **[Flowy](https://github.com/selfhostit/flowy)** | A private period and cycle tracker with predictions and reminders, works offline |
+| 🥗 **[Troye](https://github.com/selfhostit/troye)** | A private calorie and weight tracker; food photos are read by a vision model on your own GPU |
+| 🛒 **[Shoppa](https://github.com/selfhostit/shoppa)** | A shared household shopping list with barcode scanning and Open Food Facts, works offline in the shop |
+| 📅 **[Calio](https://github.com/selfhostit/calio)** | One household calendar for plans, pet sitting and trips, subscribable from Apple, Google or Outlook |
+
+<details>
+<summary><strong>🧱 How it's built</strong></summary>
+
+* Every app grows from **[plasto](https://github.com/selfhostit/plasto)**, an open template I wrote with sign-in, a database, realtime sync, push notifications, scheduled jobs, nightly backups and a phone-installable web app already in place (**Go · PocketBase · Svelte 5 · Tailwind**, plus Python workers for ML).
+* A **one-line installer** sets up Docker, installs pinned, checksummed releases and keeps them updated. Images ship for **amd64, arm64 and armv7**, so a Raspberry Pi 3 is enough.
+* **Secure by default:** apps listen on localhost behind Tailscale or a reverse proxy, run unprivileged on a read-only filesystem, and are scanned with CodeQL, govulncheck, Grype and gitleaks, with signed build attestations.
+
+```
+🧩 plasto template → 📱 Household app → 🐳 Signed multi-arch images → 🏠 One-line install at home
+```
+
+</details>
+
 ## 🌐 Open Source Projects
 Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing, IoT, Python, Flask, NiceGUI, Solara, Streamlit*
 
@@ -90,11 +116,12 @@ Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing
 
 **AI/ML:** Computer Vision • Deep Learning • CNNs • YOLO • Time-Series Analysis  
 **Cloud:** AWS • Docker • FastAPI • Web GUIs (Streamlit, Solara, NiceGUI...)  
+**Self-hosting & web apps:** Go • PocketBase • Svelte • Tailwind • PWAs • Multi-arch Docker • Tailscale  
 **Data:** Hyperspectral Imaging • Satellite Data • IoT Sensors • Big Data Processing  
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,pytorch,github,sklearn,opencv,fastapi,ubuntu,linux,bash,vscode,aws,anaconda,raspberrypi" />
+    <img src="https://skillicons.dev/icons?i=python,pytorch,github,sklearn,opencv,fastapi,go,svelte,tailwind,docker,ubuntu,linux,bash,vscode,aws,anaconda,raspberrypi" />
   </a>
 </p>
 
