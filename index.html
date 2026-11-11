@@ -444,6 +444,17 @@
       .gantt-label strong { color: var(--text); font-weight: 600; }
       .gantt-label .mono { color: var(--muted); margin-left: 0.35rem; }
 
+      /* Operational track record */
+      .ops { margin-top: 1.25rem; }
+      .ops-head { margin-bottom: 1rem; }
+      .ops-head h3 { font-size: 1.05rem; }
+      .ops-head p { margin: 0.2rem 0 0; font-size: 0.86rem; color: var(--muted); }
+      .ops-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem 1.6rem; margin: 0; padding: 0; list-style: none; }
+      .ops-item { padding-left: 0.9rem; border-left: 3px solid var(--c, var(--accent)); }
+      .ops-item h4 { font-size: 0.95rem; font-weight: 600; }
+      .ops-item h4 .mono { font-size: 0.75rem; color: var(--muted); font-weight: 400; margin-left: 0.35rem; }
+      .ops-item p { margin: 0.25rem 0 0; font-size: 0.88rem; color: var(--text-2); line-height: 1.55; }
+
       /* ── EXPERIENCE ──────────────────────────────────── */
       .roles { display: grid; gap: 1.1rem; }
       .role { padding: 1.5rem 1.6rem; }
@@ -702,7 +713,7 @@
         .hero-photo::before { inset: 10px -10px -10px 10px; border-radius: 20px; }
         .hero-photo img { border-radius: 20px; }
         .hero-photo figcaption { transform: translateX(calc(100% - 20px)); bottom: 6px; max-width: 170px; font-size: 0.72rem; }
-        .research-grid, .oss-grid, .skills-grid, .community { grid-template-columns: 1fr; }
+        .research-grid, .oss-grid, .skills-grid, .community, .ops-grid { grid-template-columns: 1fr; }
         .sys img { width: 92px; height: 92px; }
         .pub { grid-template-columns: 1fr; gap: 0.25rem; padding: 1rem 1.05rem; }
         .contact { padding: 1.8rem 1.3rem; }
@@ -806,7 +817,7 @@
         <div class="hero-copy">
           <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span>R&amp;D Engineer at VITO Remote Sensing</p>
           <h1 class="hero-name">Ioannis Kalfas</h1>
-          <p class="hero-role">Senior Computer Vision Engineer: satellite, field &amp; edge imaging</p>
+          <p class="hero-role">Senior Computer Vision Engineer: from research to production</p>
           <p class="hero-lede">
             I build deep vision models and take them from research prototype to operational deployment: global 10&nbsp;m land-cover maps for Copernicus, insect-recognition cameras in the field, and compact models that compress satellite imagery on the edge.
           </p>
@@ -873,7 +884,7 @@
                 I started in <strong>vision science</strong>: at KU Leuven’s neurophysiology lab I compared deep convolutional networks with how neurons in the primate visual cortex represent shape, and used CNN features to predict neuronal responses to images. I then applied vision to industry, to <strong>field imaging systems</strong> that recognise insects for my PhD and postdoc, and since 2024 to <strong>satellite imagery at VITO</strong>, first for global land-cover and cloud segmentation for Copernicus and now for efficient compression models on the edge.
               </p>
               <p>
-                Earth observation, agri-food and industry are the domains where I apply vision. Alongside images I work with <strong>time-series and sensor signals</strong>, from optical insect wingbeats to predictive maintenance, and I care about the software engineering that turns a model into a dependable product.
+                I’m not only a researcher: I care about <strong>deploying what I build</strong>. Across my roles I’ve owned the path from model to running system, with Docker, cloud APIs, Git workflows, CI and MLOps tooling, from client projects at Faktion to field devices in my PhD and global production pipelines at VITO. Earth observation, agri-food and industry are the domains where I apply vision, and alongside images I work with <strong>time-series and sensor signals</strong>, from optical insect wingbeats to predictive maintenance.
               </p>
             </div>
 
@@ -895,8 +906,8 @@
               <li class="card strength reveal">
                 <span class="strength-icon"><svg class="ico" aria-hidden="true"><use href="#i-rocket"/></svg></span>
                 <div>
-                  <h3>Research → production</h3>
-                  <p>Global EO products, an AWS-hosted model-serving platform and reproducible MLOps (MLflow, Hydra, Spark, GPU clusters).</p>
+                  <h3>Ships to production</h3>
+                  <p>Global EO products, an AWS-hosted model-serving platform, Raspberry Pi field devices, Dockerized releases and reproducible MLOps.</p>
                 </div>
               </li>
             </ul>
@@ -948,6 +959,40 @@
                 </li>
               </ul>
             </div>
+          </div>
+
+          <!-- Operational track record -->
+          <div class="card ops reveal">
+            <div class="ops-head">
+              <h3>From model to production, at every step</h3>
+              <p>Deployment, MLOps, DevOps and Git workflows have been part of the job since my first industry role.</p>
+            </div>
+            <ul class="ops-grid">
+              <li class="ops-item" style="--c: var(--c-industry)">
+                <h4>Faktion<span class="mono">2017–18</span></h4>
+                <p>End-to-end ML for industrial clients, with standardized feature-extraction and data-preparation workflows reused across projects; a video activity-recognition prototype that won an industry hackathon.</p>
+              </li>
+              <li class="ops-item" style="--c: var(--c-agri)">
+                <h4>PhD, KU Leuven<span class="mono">2018–22</span></h4>
+                <p>Deep-learning models running on Raspberry Pi field devices (PhotoBox, flying-insect trap), connected to an AWS-hosted API built with FastAPI and Docker for external research collaborators.</p>
+              </li>
+              <li class="ops-item" style="--c: var(--c-agri)">
+                <h4>Postdoc, KU Leuven<span class="mono">2022–24</span></h4>
+                <p>Built and ran an AWS-hosted image-classification, annotation and model-serving platform used by external companies; led the move to shared Git infrastructure and engineering practices across research teams; managed multi-terabyte datasets on ManGO.</p>
+              </li>
+              <li class="ops-item" style="--c: var(--c-eo)">
+                <h4>VITO<span class="mono">2024–</span></h4>
+                <p>Operationalized global land-cover models: inference across local, AWS and openEO, Spark and Hadoop pipelines, MLflow integration, package maintenance and output validation. Now building MLOps tools for experiment tracking and GPU-cluster jobs.</p>
+              </li>
+              <li class="ops-item">
+                <h4>Open source &amp; side projects<span class="mono">ongoing</span></h4>
+                <p><a href="#selfhostit">selfhostit</a>: signed multi-arch Docker images, automated releases, a one-line installer with auto-updates, nightly backups and CI security scans. <a href="https://github.com/kalfasyan/desto" target="_blank" rel="noopener noreferrer">desto</a>: a dashboard and CLI for running and scheduling jobs.</p>
+              </li>
+              <li class="ops-item">
+                <h4>ECMWF Code for Earth<span class="mono">2026</span></h4>
+                <p><a href="#atlantis">Project Atlantis</a>: a packaged pipeline with a CLI, a Python API and a consolidated Zarr/STAC archive for ML-ready flood data.</p>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -1033,7 +1078,7 @@
                   </div>
                   <ul class="bullets">
                     <li>Built and deployed an <strong>AWS-hosted image-classification, annotation and model-serving platform</strong> used by research teams and external collaborators.</li>
-                    <li>Led the adoption of shared Git infrastructure and software-engineering practices across multiple research teams.</li>
+                    <li>Led the adoption of <strong>shared Git infrastructure</strong> and software-engineering practices across multiple research teams.</li>
                     <li>Organized bimonthly deep-learning meetups for researchers across departments, communicating technical concepts to interdisciplinary audiences.</li>
                     <li>Managed multi-terabyte research datasets through KU Leuven’s ManGO platform, improving dataset organization and accessibility.</li>
                     <li>Investigated <strong>hyperspectral imaging</strong> and machine-learning methods for early disease detection in agri-food applications.</li>
@@ -1052,7 +1097,7 @@
                   <ul class="bullets">
                     <li>Built <strong>image-based detection and classification</strong> of insects on sticky-plate photos taken in the field and by a Raspberry Pi imaging station (PhotoBox).</li>
                     <li>Designed multimodal datasets and training pipelines for <strong>optical and acoustic insect identification</strong>, including CNNs on optical wingbeat time series.</li>
-                    <li>Developed deep-learning models for <strong>Raspberry Pi devices</strong> and integrated them with an AWS-hosted API serving external research collaborators.</li>
+                    <li>Developed deep-learning models for <strong>Raspberry Pi devices</strong> and integrated them with an <strong>AWS-hosted API (FastAPI, Docker)</strong> serving external research collaborators.</li>
                     <li>Supervised more than eight master’s and bachelor’s thesis students in computer vision and signal processing.</li>
                     <li>Published five peer-reviewed papers on computer vision and AI for biological monitoring and quality control.</li>
                   </ul>
@@ -1078,7 +1123,7 @@
                   <li>Developed end-to-end <strong>computer-vision</strong> solutions and proofs of concept for industrial clients.</li>
                   <li><strong>Won an industry hackathon</strong> by developing a video-based activity-recognition prototype.</li>
                   <li>Applied signal processing and time-series models to <strong>predictive-maintenance</strong> and speech-processing use cases.</li>
-                  <li>Standardized feature-extraction and data-preparation workflows for heterogeneous client datasets, improving consistency and reuse across projects.</li>
+                  <li>Standardized <strong>reusable feature-extraction and data-preparation workflows</strong> for heterogeneous client datasets, improving consistency and reuse across projects.</li>
                 </ul>
                 <ul class="tags" aria-label="Technologies">
                   <li class="tag">Computer vision</li><li class="tag">Video analysis</li><li class="tag">OpenCV</li><li class="tag">Signal processing</li><li class="tag">Predictive maintenance</li><li class="tag">scikit-learn</li>
@@ -1399,15 +1444,15 @@
               </ul>
             </div>
             <div class="card skill-group reveal">
-              <h3><svg class="ico" aria-hidden="true"><use href="#i-layers"/></svg>ML engineering &amp; data</h3>
+              <h3><svg class="ico" aria-hidden="true"><use href="#i-layers"/></svg>MLOps &amp; data engineering</h3>
               <ul class="tags">
-                <li class="tag core">PyTorch</li><li class="tag">PyTorch Lightning</li><li class="tag core">MLflow</li><li class="tag">Hydra</li><li class="tag">Pydantic</li><li class="tag">scikit-learn</li><li class="tag">TensorFlow / Keras</li><li class="tag core">Spark</li><li class="tag">Hadoop</li><li class="tag">xarray</li><li class="tag">Pandas</li>
+                <li class="tag core">PyTorch</li><li class="tag core">MLflow</li><li class="tag">Experiment tracking</li><li class="tag">Model validation</li><li class="tag">Hydra</li><li class="tag">Pydantic</li><li class="tag">PyTorch Lightning</li><li class="tag">scikit-learn</li><li class="tag">TensorFlow / Keras</li><li class="tag core">Spark</li><li class="tag">Hadoop</li><li class="tag">xarray</li>
               </ul>
             </div>
             <div class="card skill-group reveal">
-              <h3><svg class="ico" aria-hidden="true"><use href="#i-cloud"/></svg>Cloud, apps &amp; languages</h3>
+              <h3><svg class="ico" aria-hidden="true"><use href="#i-cloud"/></svg>DevOps, cloud &amp; languages</h3>
               <ul class="tags" style="margin-bottom:1rem">
-                <li class="tag core">AWS EC2 / S3</li><li class="tag core">Docker</li><li class="tag">Linux</li><li class="tag">FastAPI</li><li class="tag">On-prem GPU clusters</li><li class="tag">Git</li><li class="tag">Streamlit</li><li class="tag">NiceGUI</li><li class="tag">Go</li><li class="tag">PocketBase</li><li class="tag">Svelte</li><li class="tag">Self-hosting</li>
+                <li class="tag core">Docker</li><li class="tag core">Git workflows</li><li class="tag core">AWS EC2 / S3</li><li class="tag">CI/CD &amp; releases</li><li class="tag">FastAPI</li><li class="tag">Linux &amp; Bash</li><li class="tag">On-prem GPU clusters</li><li class="tag">Self-hosting</li><li class="tag">Streamlit</li><li class="tag">NiceGUI</li><li class="tag">Go</li><li class="tag">Svelte</li>
               </ul>
               <ul class="lang-list">
                 <li><span>Greek<span class="lvl-label">native</span></span><span class="meter" aria-label="5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></li>

@@ -64,7 +64,7 @@ When something changes, grep for and update all of these:
 
 ## Positioning
 
-All three (README, site, CV) present Ioannis as a **computer vision engineer**: biological vision → industrial vision → field/agri-food imaging → satellite imagery. Earth observation, agri-food and industry are the application domains; time series, predictive maintenance and MLOps are supporting strengths. VITO is shown as **one continuous role** (Mar 2024–present) with two workstreams (land-cover segmentation 2024–26, edge image compression 2026–), and one bar in the career Gantt chart.
+All three (README, site, CV) present Ioannis as a **computer vision engineer**: biological vision → industrial vision → field/agri-food imaging → satellite imagery. Earth observation, agri-food and industry are the application domains; time series and predictive maintenance are supporting strengths. The operational side (deployment, MLOps, DevOps, Git workflows) is emphasized too: see the "From model to production" card in `#about` and the matching README table. VITO is shown as **one continuous role** (Mar 2024–present) with two workstreams (land-cover segmentation 2024–26, edge image compression 2026–), and one bar in the career Gantt chart.
 
 ## Legacy / unused files
 
