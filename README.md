@@ -1,34 +1,37 @@
-# 🤖 AI Engineer & Machine Learning Research Scientist  
+# 👁️ Computer Vision Engineer & Research Scientist
 
-> *Bridging the gap between cutting-edge research and real-world impact*
+> *Teaching machines to see: from neurons, to insects, to satellites*
 
 *For my full CV, see my [portfolio page](https://kalfasyan.github.io) or my [linktree](https://linktr.ee/kalfasyan) for a summary of links to my other online profiles.*  
 
 ## 🎯 About Me
 
-I'm a **multidisciplinary software engineer and computational scientist** at the intersection of Computer Vision, Machine Learning, and Bioscience Engineering, with **11 years of combined experience** across industry, R&D, and academic environments.  
+I'm a **computer vision engineer and PhD** with **11 years of experience** building deep vision models and the systems that run them: image classification, object detection, semantic segmentation and neural image compression, deployed in the cloud, on the edge and on embedded hardware.
+
+I started in **vision science**, comparing deep CNNs with how neurons in the primate visual cortex represent shape. Since then I've applied computer vision to industry, to **field imaging systems** for insect monitoring, and to **satellite imagery** for global land-cover mapping and on-board compression. Earth observation, agri-food and industry are the domains I work in, and **time-series and sensor signals** (optical wingbeats, predictive maintenance) are a strong supporting skill.
 
 ### 🧭 My professional journey
-*11 years of experience across 5 industry and research environments. Full details under Background below.*
+*One thread across 11 years: computer vision, applied to a new kind of image at each step. Full details under Background below.*
 
-| Years | Area | Role & highlights |
+| Years | Vision domain | Role & highlights |
 |:--|:--|:--|
-| 2015–2017 | 🧠 **AI in Neurophysiology**<br><sub>Lab research</sub> | **Deep Learning Researcher (PhD)**, KU Leuven · Modelling of neurophysiological data using deep convnets |
-| 2017–2018 | 🚀 **Industry AI**<br><sub>Applied solutions</sub> | **Data Scientist**, Faktion · Computer vision & signal processing; won hackathon (activity recognition in camera feeds) |
-| 2018–2024 | 🐞 **Agricultural AI**<br><sub>Field applications</sub> | **PhD + Postdoc**, KU Leuven · Built a production-grade, AWS-hosted app for insect identification (annotation, classification & model serving), using computer vision & optical signal processing on edge |
-| 2024–2026 | 🛰️ **AI for Earth Observation**<br><sub>Global monitoring</sub> | **R&D Engineer**, VITO · Deep learning models for global EO tasks (cloud segmentation & land-cover classification) |
-| 2026– | 💽 **AI for EO data compression**<br><sub>Edge solutions</sub> | **R&D Engineer**, VITO · Optimization of deep architectures (VQVAE2) for image compression and embedded solutions |
+| 2015–2017 | 🧠 **Biological vision**<br><sub>Vision neuroscience</sub> | **Doctoral Researcher**, KU Leuven neurophysiology lab · Deep CNNs as models of the primate visual cortex; predicting neuronal responses to images from CNN features |
+| 2017–2018 | 🚀 **Industrial vision**<br><sub>Applied solutions</sub> | **Data Scientist**, Faktion · Computer vision for industrial clients (won a hackathon with video activity recognition), plus predictive maintenance on sensor data |
+| 2018–2024 | 🐞 **Field & agri-food imaging**<br><sub>Edge devices</sub> | **PhD + Postdoc**, KU Leuven · Insect detection and classification from images and optical signals on Raspberry Pi devices, served through a production AWS platform; hyperspectral imaging |
+| 2024– | 🛰️ **Satellite imagery**<br><sub>Earth observation</sub> | **R&D Engineer**, VITO · Cloud segmentation and global 10 m land-cover mapping for Copernicus (2024–26), now neural image compression (VQ-VAE) for edge and onboard hardware (2026–) |
 
 ## 🌍 Current & Recent Work
 
-### 🛰️ R&D Engineer at [VITO Remote Sensing](https://remotesensing.vito.be/)
+### 🛰️ R&D Engineer at [VITO Remote Sensing](https://remotesensing.vito.be/) (2024–present)
 
-Currently, I'm optimizing VITO's [CORSA model](https://blog.vito.be/remotesensing/democratising-eo-intelligence-corsa-and-major-tom-now-live-on-terrascope) (lightweight satellite image compression on edge devices) in the AGES (Applied GeoAI and Edge Solutions) team of VITO's Remote Sensing unit. In parallel, I'm designing custom MLOps tools for internal use, supporting experiment tracking and GPU cluster (on-prem) job management.  
+At VITO I build deep vision models for satellite imagery and the pipelines that run them at planetary scale. It is one continuous role in the Remote Sensing unit, with two workstreams so far.
+
+**Now: efficient vision on the edge (2026–).** In the AGES (Applied GeoAI and Edge Solutions) team I optimize VITO's [CORSA model](https://blog.vito.be/remotesensing/democratising-eo-intelligence-corsa-and-major-tom-now-live-on-terrascope), a lightweight VQ-VAE that compresses satellite images on edge devices, trading model footprint against spatial and spectral fidelity. In parallel, I design custom MLOps tools for experiment tracking and on-prem GPU cluster job management.
 ```
 📡 Satellite Images → 🔄 CORSA Compression (Edge) → 🖥️ On-Prem GPU Cluster
 ↳ 🔧 MLOps Tools: Experiment Tracking & Job Management
 ```
-Before joining AGES, I was part of the RSA team at VITO, developing AI models for the EU's Copernicus **[Land Cover and Forest Monitoring (LCFM)](https://land.copernicus.eu/en/news/lcfm-a-new-chapter-in-global-land-cover-monitoring)** project (**€11M budget**). Our team had previously delivered the [ESA WorldCover products](https://esa-worldcover.org/en). I built multi-stage AI pipelines to process satellite data, producing global land cover maps at **10m resolution—ten times sharper than before**. My focus was on cloud segmentation models for quality signal identification, maintaining code repositories (soon to be open-sourced), and deploying classification models that generate annual land cover maps, **directly supporting EU environmental policy and climate monitoring**.  
+**Before: segmentation for global land cover (2024–2026).** In the team behind the [ESA WorldCover products](https://esa-worldcover.org/en), I developed AI models for the EU's Copernicus **[Land Cover and Forest Monitoring (LCFM)](https://land.copernicus.eu/en/news/lcfm-a-new-chapter-in-global-land-cover-monitoring)** project (**€11M budget**). I built multi-stage pipelines to process satellite data, producing global land cover maps at **10m resolution—ten times sharper than before**. My focus was on **cloud segmentation** models that identify usable observations, maintaining code repositories, and deploying the **classification models** that generate annual land cover maps, **directly supporting EU environmental policy and climate monitoring**.  
 
 ```
 🛰️ Satellite Data → ☁️ AI Cloud Detection → 📊 Quality Composites → 🗺️ Global Land Cover Maps
@@ -88,7 +91,7 @@ Outside my day job, I build **[selfhostit](https://github.com/selfhostit)**, a g
 </details>
 
 ## 🌐 Open Source Projects
-Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing, IoT, Python, Flask, NiceGUI, Solara, Streamlit*
+Keywords: *Computer Vision, Image Processing, Satellite Data, Edge AI, CLI Tools, Web Development, DevOps, Python, Flask, NiceGUI, Solara, Streamlit*
 
 **[`desto`](https://github.com/kalfasyan/desto)** - Web dashboard and CLI for managing scripts in tmux sessions  
 ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/desto?style=flat-square&logo=github)  
@@ -114,10 +117,12 @@ Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing
 
 ## 🛠️ Tech Stack
 
-**AI/ML:** Computer Vision • Deep Learning • CNNs • YOLO • Time-Series Analysis  
+**Computer vision:** Semantic Segmentation • Image Classification • Object Detection (YOLO) • Neural Image Compression (VQ-VAE) • Video Activity Recognition • Multispectral & Hyperspectral Imaging • OpenCV  
+**Earth observation:** Sentinel Data • Cloud Screening • Land-Cover Mapping • SAR & Optical EO • openEO • Zarr/STAC  
+**Signals & time series:** Optical Sensor Signals • Predictive Maintenance • Signal Processing  
 **Cloud:** AWS • Docker • FastAPI • Web GUIs (Streamlit, Solara, NiceGUI...)  
 **Self-hosting & web apps:** Go • PocketBase • Svelte • Tailwind • PWAs • Multi-arch Docker • Tailscale  
-**Data:** Hyperspectral Imaging • Satellite Data • IoT Sensors • Big Data Processing  
+**Data & MLOps:** PyTorch • MLflow • Hydra • Spark • Hadoop • xarray • IoT Sensors  
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -132,25 +137,26 @@ Keywords: *Web Development, CLI Tools, DevOps, Computer Vision, Image Processing
 ### 💼 Professional Experience
   
 <details>
-<summary><strong>🛰️ Remote Sensing & AI at VITO</strong> <em>(Current; 2024-)</em></summary>
+<summary><strong>🛰️ Computer Vision for Earth Observation at VITO</strong> <em>(R&D Engineer; 2024–present)</em></summary>
 
-- **AGES team (2026-):** Optimize [CORSA](https://blog.vito.be/remotesensing/democratising-eo-intelligence-corsa-and-major-tom-now-live-on-terrascope), VITO's lightweight satellite image compression model for edge devices, and design custom MLOps tools for experiment tracking and on-prem GPU cluster job management
-- **RSA team (2024-2026):** Developed reliable earth land cover classification systems through [LCFM project](https://remotesensing.vito.be/services/copernicus-lcfm)
-- Apply hyperspectral satellite data analysis and ML models for environmental datasets
-- Work with cloud services, Hadoop, Spark, and AWS for large-scale processing
+One role in VITO's Remote Sensing unit, building deep vision models for satellite imagery:
+
+- **Efficient vision on the edge (AGES team, 2026–):** Optimize [CORSA](https://blog.vito.be/remotesensing/democratising-eo-intelligence-corsa-and-major-tom-now-live-on-terrascope), VITO's lightweight VQ-VAE satellite image compression model for edge devices, and design custom MLOps tools for experiment tracking and on-prem GPU cluster job management
+- **Global land cover (WorldCover & LCFM team, 2024–2026):** Developed cloud segmentation and land-cover classification models for the Copernicus [LCFM project](https://remotesensing.vito.be/services/copernicus-lcfm), producing annual global maps at 10 m
+- Built distributed pipelines for multispectral satellite data with Hadoop, Spark and AWS, and inference workflows across local, AWS and openEO environments
 - Contribute to EU Commission projects for sustainable development and climate change mitigation
 
 </details>
 
 <details>
-<summary><strong>🐞 Bioscience Engineering at KU Leuven</strong> <em>(PhD & Postdoc; 4 + 2 years; 2018-2022 + 2022-2024)</em></summary>
+<summary><strong>🐞 Computer Vision for Insect Monitoring at KU Leuven</strong> <em>(PhD & Postdoc, Bioscience Engineering; 2018-2024)</em></summary>
 
 *PhD Focus:* [Optical Insect Identification using AI](https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=lirias3887120&context=SearchWebhook&vid=32KUL_KUL:Lirias&lang=en&search_scope=lirias_profile&adaptor=SearchWebhook&tab=LIRIAS&query=any%2Ccontains%2CLIRIAS3887120&offset=0)
 
 *Postdoc:* Productized research by developing a production-ready API and web dashboard, bridging the gap between raw AI models and end-user accessibility. Led AI projects, mentored PhD researchers, and specialized in hyperspectral imaging.
 
 - Deployed production API server on AWS serving AI models and tools to **external companies** via a web interface ([demo-setup](https://www.veed.io/view/5147995d-7dad-44e0-b3c7-fd91f16699f0?panel=showcase), [demo-interface](https://www.veed.io/view/8efbeae2-e421-456a-9b50-30c968bcdf3e?panel=showcase), [demo-label-tool](https://www.veed.io/view/0cc62395-a29e-41f0-82ff-6218e6b28400?panel=share))
-- Built comprehensive AI systems for insect recognition using computer vision and audio analysis (see [insect-trap](https://gitlab.kuleuven.be/mebios-dl/research/3e200920/flying_insect_trap), [wbai](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/wbai), [stickybugs-ai](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/stickybugs-ai))
+- Built image-based insect detection and classification (sticky-plate photos, Raspberry Pi imaging station) and CNNs on optical wingbeat signals (see [insect-trap](https://gitlab.kuleuven.be/mebios-dl/research/3e200920/flying_insect_trap), [wbai](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/wbai), [stickybugs-ai](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/stickybugs-ai))
 - Developed software tools for IoT devices, desktop systems, and cloud infrastructure (see [photobox](https://gitlab.kuleuven.be/mebios-dl/research/3e181051/photobox), [example publication](https://www.sciencedirect.com/science/article/pii/S1574954123000663))
   
 Created the [`plakakia`](https://github.com/kalfasyan/plakakia) library | **5 publications** in high-impact journals
@@ -160,16 +166,16 @@ Created the [`plakakia`](https://github.com/kalfasyan/plakakia) library | **5 pu
 <details>
 <summary><strong>🚀 Data Scientist at Faktion</strong> <em>(1 year; 2017-2018)</em></summary>
 
-Applied AI solutions for industry clients including predictive maintenance (Bridgestone), sales analytics (Aliaxis), and computer vision POCs.
+Computer vision POCs for industry clients, alongside predictive maintenance on sensor data (Bridgestone) and sales analytics (Aliaxis).
 
 **Achievement:** 🏆 Won hackathon on [Activity Recognition](https://youtu.be/zQ45C3eU1sg?t=80) (Vinci Energies)
 
 </details>
 
 <details>
-<summary><strong>🧠 Deep Learning Research at KU Leuven</strong> <em>(2 years; 2015-2017)</em></summary>
+<summary><strong>🧠 Vision Neuroscience & Deep Learning at KU Leuven</strong> <em>(Doctoral Researcher; 2 years; 2015-2017)</em></summary>
 
-Studied deep CNNs and their resemblance to biological visual systems. Developed models to predict neuronal activity from artificial neuron activations.
+Studied deep CNNs as models of the primate visual system: compared how CNNs, macaque inferotemporal neurons and human observers represent shape, and built models that predict neuronal responses to images from CNN activations.
 
 Specialized in the deep learning components of all published research | **4 publications** in top neuroscience journals | Presented [my work](https://jov.arvojournals.org/article.aspx?articleid=2651681) at VSS conference (Florida, USA). List of papers below:  
 * **The ventral visual pathway represents animal appearance over animacy, unlike human behavior and deep neural networks.** Bracci, S., Ritchie, J. B., Kalfas, I., & Op de Beeck, H. P. (2019). *The Journal of Neuroscience*, 39(33), 6513-6525. [DOI](http://dx.doi.org/10.1523/JNEUROSCI.1714-18.2019)
@@ -192,11 +198,11 @@ Successfully completed doctoral research with a focus on optical insect identifi
 </details>
 
 <details>
-<summary><strong>🧠 PhD Research* - Neurophysiology Lab</strong> <em>(KU Leuven, Belgium 🇧🇪; 2 years; 2015-2017)</em></summary>
+<summary><strong>🧠 PhD Research* - Neurophysiology Lab (vision)</strong> <em>(KU Leuven, Belgium 🇧🇪; 2 years; 2015-2017)</em></summary>
 
 **Fulfilled requirements early, but exited programme*
 
-Explored computational neuroscience applications and deep learning models for biological neurons
+Studied object and shape representations in the primate visual cortex and how they compare with deep convolutional networks
 
 </details>
 
@@ -217,7 +223,7 @@ Built a solid foundation in computing theory and educational information systems
 
 ## 📬 Contact
 
-🌱 I'm always interested to learn about how Artificial Intelligence can improve our lives.  
+🌱 I'm always interested to learn about how computer vision and AI can improve our lives.  
 💬 To reach out, send an email at kalfasyan[at]gmail[dot]com  
 🔗 Check my [linktr.ee](https://linktr.ee/kalfasyan)  
   
