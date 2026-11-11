@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Ioannis Kalfas – CV</title>
+<!-- Source of docs/Kalfas_Ioannis_Resume.pdf. Rebuild with: node cv/build.js (needs Playwright + Chromium). -->
+<style>
+  @page { size: Letter; margin: 0.45in 0.5in; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Liberation Sans", Arial, Helvetica, sans-serif; font-size: 9.3pt; line-height: 1.27; color: #1a1a1a; }
+  a { color: #1f5fa8; }
+  h1 { margin: 0; text-align: center; color: #1f5fa8; font-size: 21pt; letter-spacing: 0.04em; }
+  .tagline { text-align: center; color: #1f78c8; font-size: 10.5pt; margin: 2pt 0 1pt; }
+  .contact { text-align: center; font-size: 8.8pt; color: #333; }
+  h2 { color: #1f5fa8; font-size: 10.5pt; letter-spacing: 0.03em; margin: 9pt 0 4pt; padding-bottom: 2pt; border-bottom: 1.2pt solid #1f5fa8; }
+  p { margin: 0 0 3pt; }
+  .job { margin-top: 6pt; }
+  .sub > .row, .job > .row { break-after: avoid; }
+  .row { display: flex; justify-content: space-between; gap: 8pt; }
+  .row .d { font-style: italic; color: #333; white-space: nowrap; }
+  .job > .row b { font-size: 10pt; }
+  .org { color: #1f5fa8; font-weight: bold; }
+  .sum { margin: 2pt 0 2pt 10pt; font-style: italic; color: #333; }
+  .sub { margin: 4pt 0 0 10pt; }
+  .sub > .row { color: #444; font-weight: bold; }
+  .sub > .row span.t { font-weight: normal; }
+  ul { margin: 1pt 0 0 10pt; padding-left: 12pt; }
+  li { margin: 0 0 1pt; list-style: none; position: relative; }
+  li::before { content: "▸"; position: absolute; left: -11pt; font-size: 8pt; top: 0.5pt; color: #333; }
+  .skills p { margin-bottom: 2pt; }
+  .edu .row { margin-bottom: 2pt; }
+</style>
+</head>
+<body>
+  <h1>IOANNIS KALFAS</h1>
+  <p class="tagline">Senior Computer Vision Engineer | Earth Observation, Edge AI and Applied Vision | Greek, EU national</p>
+  <p class="contact">kalfasyan@pm.me · (+32) 465 40 30 27 · Leuven, Belgium · <a href="https://github.com/kalfasyan">GitHub</a> · <a href="https://www.linkedin.com/in/kalfasyan/">LinkedIn</a> · <a href="https://scholar.google.com/citations?user=WXHakDkAAAAJ">Google Scholar</a> · <a href="https://kalfasyan.github.io/">kalfasyan.github.io</a></p>
+
+  <h2>PROFESSIONAL SUMMARY</h2>
+  <p>Computer vision engineer and PhD with 11 years of experience building deep vision models and taking them from research prototype to operational deployment. Started in vision science, modelling the primate visual cortex with deep convolutional networks, then applied computer vision to industry, to field imaging systems for insect monitoring, and since 2024 to satellite imagery at VITO: cloud segmentation and global land-cover mapping for Copernicus LCFM, and now efficient neural image compression for edge and onboard hardware. Combines model development with data engineering, reproducible MLOps, and time-series and sensor-signal analysis.</p>
+  <p><b>Highlights:</b> <i>global 10 m land-cover mapping for Copernicus · 9 peer-reviewed publications, 6 on computer or biological vision · open-source computer-vision and EO tools</i></p>
+
+  <h2>WORK EXPERIENCE</h2>
+
+  <div class="job">
+    <div class="row"><span><b>R&amp;D Engineer, Computer Vision for Earth Observation</b> | <span class="org">VITO</span> | Remote Sensing unit, Mol</span><span class="d">Mar 2024 – Present</span></div>
+    <p class="sum">One continuous role building deep vision models for satellite imagery and the pipelines that run them at planetary scale.</p>
+    <div class="sub">
+      <div class="row"><span>Efficient vision on the edge: neural image compression <span class="t">(GeoAI and Edge Solutions team)</span></span><span class="d">Jan 2026 – Present</span></div>
+      <ul>
+        <li>Optimize and evaluate CORSA VQ-VAE architectures for satellite-image compression, balancing model footprint with spatial and spectral reconstruction quality on resource-constrained edge and embedded platforms.</li>
+        <li>Build parametrized training workflows using PyTorch, MLflow, Hydra, and Pydantic to improve experiment reproducibility and model traceability.</li>
+        <li>Develop internal MLOps tools for experiment tracking, reproducible configuration, and job management on VITO’s on-premises GPU cluster.</li>
+      </ul>
+    </div>
+    <div class="sub">
+      <div class="row"><span>Global land cover: cloud segmentation and classification <span class="t">(ESA WorldCover &amp; Copernicus LCFM team)</span></span><span class="d">Mar 2024 – Jan 2026</span></div>
+      <ul>
+        <li>Developed deep-learning models for cloud segmentation and global 10 m land-cover mapping from Sentinel imagery within the Copernicus Land Cover and Forest Monitoring programme.</li>
+        <li>Built multi-stage pipelines for satellite-data ingestion, preprocessing, model inference, and generation of annual global Earth-observation products.</li>
+        <li>Implemented reusable cloud-model inference workflows across local, AWS, and openEO environments.</li>
+        <li>Engineered distributed data pipelines using Hadoop, Spark, object storage, and network storage for geographically and seasonally diverse satellite datasets.</li>
+        <li>Improved model operationalization through MLflow integration, package maintenance, output validation, and standardized GeoTIFF metadata.</li>
+        <li>Supported technical handover by guiding colleagues through model configurations, datasets, annotation sources, training code, and inference workflows.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="job">
+    <div class="row"><span><b>PhD Researcher → Postdoctoral Researcher</b> | <span class="org">KU Leuven, MeBioS</span> | Leuven</span><span class="d">Dec 2018 – Mar 2024</span></div>
+    <p class="sum">Computer vision and optical sensing for insect monitoring and agri-food, from Raspberry Pi devices to an AWS-hosted platform.</p>
+    <div class="sub">
+      <div class="row"><span>Postdoctoral Researcher</span><span class="d">Nov 2022 – Mar 2024</span></div>
+      <ul>
+        <li>Built and deployed an AWS-hosted image-classification, annotation, and model-serving platform used by research teams and external collaborators.</li>
+        <li>Investigated hyperspectral imaging and machine-learning methods for early disease detection in agri-food applications.</li>
+        <li>Led the adoption of shared Git infrastructure and software-engineering practices across multiple research teams.</li>
+        <li>Organized bimonthly deep-learning meetups for researchers across departments, communicating technical concepts to interdisciplinary audiences.</li>
+        <li>Managed multi-terabyte research datasets through KU Leuven’s ManGO platform, improving dataset organization and accessibility.</li>
+      </ul>
+    </div>
+    <div class="sub">
+      <div class="row"><span>PhD Researcher in Optical Insect Identification</span><span class="d">Dec 2018 – Nov 2022</span></div>
+      <ul>
+        <li>Built image-based detection and classification of insects on sticky-plate photos taken in the field and by a Raspberry Pi imaging station.</li>
+        <li>Designed multimodal datasets and training pipelines for optical and acoustic insect identification, including CNNs on optical wingbeat time series.</li>
+        <li>Developed deep-learning models for Raspberry Pi devices and integrated them with an AWS-hosted API serving external research collaborators.</li>
+        <li>Supervised more than eight master’s and bachelor’s thesis students in computer vision and signal processing.</li>
+        <li>Published five peer-reviewed papers on computer vision and AI for biological monitoring and quality control.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="job">
+    <div class="row"><span><b>Data Scientist / AI Engineer</b> | <span class="org">Faktion</span> | Antwerp</span><span class="d">Dec 2017 – Dec 2018</span></div>
+    <ul>
+      <li>Developed end-to-end computer-vision solutions and proofs of concept for industrial clients.</li>
+      <li>Won an industry hackathon by developing a video-based activity-recognition prototype.</li>
+      <li>Applied signal processing and time-series models to predictive-maintenance and speech-processing use cases.</li>
+      <li>Standardized feature-extraction and data-preparation workflows for heterogeneous client datasets, improving consistency and reuse across projects.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="row"><span><b>Doctoral Researcher in Vision Neuroscience &amp; Deep Learning</b> | <span class="org">KU Leuven, Neurophysiology</span> | Leuven</span><span class="d">Nov 2015 – Nov 2017</span></div>
+    <ul>
+      <li>Studied deep convolutional networks as models of the primate visual system, comparing CNN representations of shape with responses of macaque inferotemporal neurons and with human judgments.</li>
+      <li>Developed computer-vision and regression models that predict neuronal responses to visual stimuli from CNN features.</li>
+      <li>Published four peer-reviewed papers, including two as first author, and presented at the Vision Sciences Society conference before leaving the programme to pursue applied computer vision in industry.</li>
+    </ul>
+  </div>
+
+  <h2>TECHNICAL SKILLS</h2>
+  <div class="skills">
+    <p><b>Computer Vision:</b> semantic segmentation, image classification, object detection (YOLO), neural image compression (VQ-VAE), video activity recognition, multispectral and hyperspectral imaging, OpenCV</p>
+    <p><b>Earth Observation:</b> satellite imagery (Sentinel), cloud screening, land-cover mapping, SAR and optical EO, openEO, GeoTIFF, Zarr/STAC</p>
+    <p><b>Edge and Efficient AI:</b> model optimization, constrained inference, Raspberry Pi, embedded deployment</p>
+    <p><b>Signals and Time Series:</b> time-series classification, optical sensor signals, predictive maintenance, signal processing</p>
+    <p><b>ML Engineering and MLOps:</b> PyTorch, PyTorch Lightning, MLflow, Hydra, Pydantic, scikit-learn, experiment tracking, model validation</p>
+    <p><b>Data and Infrastructure:</b> Spark, Hadoop, xarray, Pandas, AWS EC2/S3, Docker, Linux, FastAPI, on-premises GPU clusters</p>
+    <p><b>Languages:</b> Greek (native), English (professional), Dutch / Spanish / Swedish (elementary)</p>
+  </div>
+
+  <h2>EDUCATION</h2>
+  <div class="edu">
+    <div class="row"><span><b>PhD, Bioscience Engineering</b> — KU Leuven, Belgium · <i>Optical insect identification using artificial intelligence</i></span><span class="d">2022</span></div>
+    <div class="row"><span><b>MSc, Machine Learning</b> — KTH Royal Institute of Technology, Stockholm, Sweden</span><span class="d">2015</span></div>
+    <div class="row"><span><b>BSc, Computer Science</b> — Aristotle University of Thessaloniki (AUTH), Greece</span><span class="d">2013</span></div>
+  </div>
+
+  <h2>RESEARCH AND OPEN-SOURCE CONTRIBUTIONS</h2>
+  <ul>
+    <li>Author or co-author of nine peer-reviewed publications (five as first author), six of them on computer or biological vision, in journals including PLOS Computational Biology, The Journal of Neuroscience, Ecological Informatics and Computers and Electronics in Agriculture.</li>
+    <li>ECMWF Code for Earth 2026: co-developed Project Atlantis, an ML-ready STAC/Zarr archive of multi-source satellite flood observations (VIIRS, MODIS, Sentinel-1).</li>
+    <li>Develop and maintain open-source Python tools including plakakia for image tiling in detection and segmentation, vresto for Sentinel-data discovery, desto for job management, and filoma for research-data organization.</li>
+  </ul>
+</body>
+</html>

@@ -50,7 +50,7 @@ The page is a single self-contained file with no frameworks. The only external r
   - The `.gantt-row.now` bar gets its width from JS (using its `data-start`), capped so the bar ends before the right edge. After Jan 2027 the bar stops growing. Extending the axis means changing `AXIS_SPAN` in the script **and** recomputing every `--l`, `--w` and `--x` in the markup.
   - `.end` right-aligns a row's label; use it for bars in the right half of the chart.
 - **Role durations**: `<span class="dur" data-start="YYYY-MM" data-end="YYYY-MM">` is filled with text like "2 yrs 3 mos" by JS. Omit `data-end` for an ongoing role. The visible "Mar 2024 – Present" date text sits beside it and is static.
-- **Publications**: each `li.pub` has space-separated `data-tags` (`agri`, `neuro`, `first`) that drive the filter chips. The list is ordered newest first. The counts in the chips' `<span>`s are **hard-coded**, so update them when adding a paper.
+- **Publications**: each `li.pub` has space-separated `data-tags` (`vision`, `agri`, `neuro`, `first`) that drive the filter chips. `vision` marks papers on computer or biological vision. The list is ordered newest first. The counts in the chips' `<span>`s are **hard-coded**, so update them when adding a paper.
 - **GitHub stars**: on `.stars[data-repo="owner/name"]`, the number in the markup is a fallback that JS replaces with the live count.
 
 ### Hard-coded facts that drift
@@ -58,9 +58,13 @@ The page is a single self-contained file with no frameworks. The only external r
 When something changes, grep for and update all of these:
 
 - **Years of experience** ("11"/"Eleven"): `<title>`, meta description, the hero stat, the About text and the Experience heading.
-- **Publication counts** ("9", "5 as first author", "Nine"): the hero stat, the Publications heading and the filter chips.
-- **Footer**: "© 2026" and "Last updated October 2026".
-- **CV PDF**: `docs/Kalfas_Ioannis_Resume.pdf` is linked from the nav, the hero and the Contact section. To keep those links valid, replace the file in place.
+- **Publication counts** ("9", "5 as first author", "6 on computer or biological vision", "Nine", "Six"): the hero stat, the Publications heading and sub-heading, the filter chips, the README and the CV.
+- **Footer**: "© 2026" and "Last updated November 2026".
+- **CV PDF**: `docs/Kalfas_Ioannis_Resume.pdf` is linked from the nav, the hero and the Contact section. To keep those links valid, replace the file in place. Its source is `cv/resume.html` (not published); edit that and rebuild the PDF with `node cv/build.js` (Playwright + Chromium). Keep it to two pages.
+
+## Positioning
+
+All three (README, site, CV) present Ioannis as a **computer vision engineer**: biological vision → industrial vision → field/agri-food imaging → satellite imagery. Earth observation, agri-food and industry are the application domains; time series, predictive maintenance and MLOps are supporting strengths. VITO is shown as **one continuous role** (Mar 2024–present) with two workstreams (land-cover segmentation 2024–26, edge image compression 2026–), and one bar in the career Gantt chart.
 
 ## Legacy / unused files
 
