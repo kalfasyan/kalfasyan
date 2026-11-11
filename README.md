@@ -10,6 +10,17 @@ I'm a **computer vision engineer and PhD** with **11 years of experience** build
 
 I started in **vision science**, comparing deep CNNs with how neurons in the primate visual cortex represent shape. Since then I've applied computer vision to industry, to **field imaging systems** for insect monitoring, and to **satellite imagery** for global land-cover mapping and on-board compression. Earth observation, agri-food and industry are the domains I work in, and **time-series and sensor signals** (optical wingbeats, predictive maintenance) are a strong supporting skill.
 
+### 🚢 Not just research: I ship
+I care about deploying what I build. Deployment, MLOps, DevOps and Git workflows have been part of every role since my first industry job:
+
+| Where | What I deployed and ran |
+|:--|:--|
+| 🚀 **Faktion** (2017–18) | End-to-end ML for industrial clients, with standardized feature-extraction and data-preparation workflows reused across projects |
+| 🐞 **PhD, KU Leuven** (2018–22) | Deep-learning models on Raspberry Pi field devices (PhotoBox, flying-insect trap), connected to an AWS-hosted API built with FastAPI and Docker |
+| 🐞 **Postdoc, KU Leuven** (2022–24) | An AWS-hosted image-classification, annotation and model-serving platform used by external companies; led the move to shared Git infrastructure across research teams; multi-terabyte data management on ManGO |
+| 🛰️ **VITO** (2024–) | Operationalized global land-cover models: inference across local, AWS and openEO, Spark/Hadoop pipelines, MLflow integration, package maintenance, output validation; now building MLOps tools for experiment tracking and GPU-cluster jobs |
+| 🏠 **Side projects** | [selfhostit](https://github.com/selfhostit): signed multi-arch Docker images, automated releases, a one-line installer with auto-updates, nightly backups, CI security scans · [desto](https://github.com/kalfasyan/desto): job dashboard and CLI |
+
 ### 🧭 My professional journey
 *One thread across 11 years: computer vision, applied to a new kind of image at each step. Full details under Background below.*
 
@@ -120,9 +131,10 @@ Keywords: *Computer Vision, Image Processing, Satellite Data, Edge AI, CLI Tools
 **Computer vision:** Semantic Segmentation • Image Classification • Object Detection (YOLO) • Neural Image Compression (VQ-VAE) • Video Activity Recognition • Multispectral & Hyperspectral Imaging • OpenCV  
 **Earth observation:** Sentinel Data • Cloud Screening • Land-Cover Mapping • SAR & Optical EO • openEO • Zarr/STAC  
 **Signals & time series:** Optical Sensor Signals • Predictive Maintenance • Signal Processing  
-**Cloud:** AWS • Docker • FastAPI • Web GUIs (Streamlit, Solara, NiceGUI...)  
+**MLOps & data:** PyTorch • MLflow • Experiment Tracking • Model Validation • Hydra • Pydantic • Spark • Hadoop • xarray  
+**DevOps:** Docker • Git Workflows • CI/CD & Release Automation • AWS • FastAPI • Linux • On-prem GPU Clusters  
+**Web GUIs:** Streamlit • Solara • NiceGUI  
 **Self-hosting & web apps:** Go • PocketBase • Svelte • Tailwind • PWAs • Multi-arch Docker • Tailscale  
-**Data & MLOps:** PyTorch • MLflow • Hydra • Spark • Hadoop • xarray • IoT Sensors  
 
 <p align="center">
   <a href="https://skillicons.dev">
