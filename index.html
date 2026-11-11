@@ -457,7 +457,6 @@
       .gantt-row.end .gantt-label { left: auto; right: calc(100% - var(--l) - var(--w)); }
       .gantt-label strong { color: var(--text); font-weight: 600; }
       .gantt-label .mono { color: var(--muted); margin-left: 0.35rem; }
-      .gantt-label .gantt-arrow { color: var(--muted); }
       /* Two roles at one workplace share a row: split segments with a small gap, the second one lighter */
       .gantt-seg { width: calc(var(--w) - 3px); }
       .gantt-seg.alt { left: calc(var(--l) + 3px); width: calc(var(--w) - 3px); background: color-mix(in srgb, var(--c) 60%, transparent); }
@@ -968,7 +967,7 @@
                 <li style="--c: var(--c-eo)">Satellite imagery</li>
               </ul>
             </div>
-            <div class="gantt" role="img" aria-label="Career timeline: biological vision and deep CNNs at KU Leuven 2015 to 2017; data scientist at Faktion 2017 to 2018; PhD in optical insect identification and then postdoc at KU Leuven, 2018 to 2022 and 2022 to 2024; computer vision for Earth observation at VITO since 2024.">
+            <div class="gantt" role="img" aria-label="Career timeline, oldest at the bottom: biological vision and deep CNNs at KU Leuven 2015 to 2017; data scientist at Faktion 2017 to 2018; PhD in optical insect identification and then postdoc at KU Leuven, 2018 to 2022 and 2022 to 2024; computer vision for Earth observation at VITO since 2024.">
               <div class="gantt-grid" aria-hidden="true">
                 <div class="gantt-tick" style="--x: 2.22%"><span>2016</span></div>
                 <div class="gantt-tick" style="--x: 20%"><span>2018</span></div>
@@ -978,21 +977,22 @@
                 <div class="gantt-tick" style="--x: 91.11%"><span>2026</span></div>
               </div>
               <ul class="gantt-rows" aria-hidden="true">
-                <li class="gantt-row" style="--l: 0.74%; --w: 17.78%; --c: var(--c-neuro)">
-                  <span class="gantt-label"><strong>Vision neuroscience &amp; CNNs</strong><span class="org"> · KU Leuven</span><span class="mono">2015–17</span></span>
+                <li class="gantt-row end now" data-start="2024.1667" style="--l: 74.81%; --w: 23%; --c: var(--c-eo)">
+                  <span class="gantt-label"><strong>Computer vision for EO</strong><span class="org"> · VITO</span><span class="mono">2024–</span></span>
                   <span class="gantt-bar"></span>
+                </li>
+                <li class="gantt-row" style="--c: var(--c-agri)">
+                  <span class="gantt-label" style="--l: 28.15%"><strong>PhD<span class="org">, insect vision</span></strong><span class="org"> · KU Leuven</span><span class="mono">2018–22</span></span>
+                  <span class="gantt-bar gantt-seg" style="--l: 28.15%; --w: 34.81%"></span>
+                  <span class="gantt-label" style="--l: 62.96%"><strong>Postdoc</strong><span class="mono">2022–24</span></span>
+                  <span class="gantt-bar gantt-seg alt" style="--l: 62.96%; --w: 11.85%"></span>
                 </li>
                 <li class="gantt-row" style="--l: 19.26%; --w: 8.89%; --c: var(--c-industry)">
                   <span class="gantt-label"><strong>Data scientist</strong><span class="org"> · Faktion</span><span class="mono">2017–18</span></span>
                   <span class="gantt-bar"></span>
                 </li>
-                <li class="gantt-row" style="--l: 28.15%; --w: 46.67%; --c: var(--c-agri)">
-                  <span class="gantt-label"><strong>PhD</strong><span class="mono">2018–22</span><span class="gantt-arrow"> → </span><strong>Postdoc</strong><span class="mono">2022–24</span><span class="org"> · KU Leuven</span></span>
-                  <span class="gantt-bar gantt-seg" style="--l: 28.15%; --w: 34.81%"></span>
-                  <span class="gantt-bar gantt-seg alt" style="--l: 62.96%; --w: 11.85%"></span>
-                </li>
-                <li class="gantt-row end now" data-start="2024.1667" style="--l: 74.81%; --w: 23%; --c: var(--c-eo)">
-                  <span class="gantt-label"><strong>Computer vision for EO</strong><span class="org"> · VITO</span><span class="mono">2024–</span></span>
+                <li class="gantt-row" style="--l: 0.74%; --w: 17.78%; --c: var(--c-neuro)">
+                  <span class="gantt-label"><strong>Vision neuroscience &amp; CNNs</strong><span class="org"> · KU Leuven</span><span class="mono">2015–17</span></span>
                   <span class="gantt-bar"></span>
                 </li>
               </ul>
