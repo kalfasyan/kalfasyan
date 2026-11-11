@@ -51,6 +51,7 @@ The page is a single self-contained file with no frameworks. The only external r
   - `.end` right-aligns a row's label; use it for bars in the right half of the chart.
 - **Role durations**: `<span class="dur" data-start="YYYY-MM" data-end="YYYY-MM">` is filled with text like "2 yrs 3 mos" by JS. Omit `data-end` for an ongoing role. The visible "Mar 2024 – Present" date text sits beside it and is static.
 - **Publications**: each `li.pub` has space-separated `data-tags` (`vision`, `agri`, `neuro`, `first`) that drive the filter chips. `vision` marks papers on computer or biological vision. The list is ordered newest first. The counts in the chips' `<span>`s are **hard-coded**, so update them when adding a paper.
+- **Hero photo carousel**: `#heroSlides` holds one `.hero-slide` per photo (image plus `.hero-cap` caption); `#heroDots` needs one `.hero-dot` button per slide, in the same order. Only the first slide is visible without JS; the others carry `hidden`. Photos are 4:5 portrait (560×700) JPEGs.
 - **GitHub stars**: on `.stars[data-repo="owner/name"]`, the number in the markup is a fallback that JS replaces with the live count.
 
 ### Hard-coded facts that drift
@@ -69,5 +70,5 @@ All three (README, site, CV) present Ioannis as a **computer vision engineer**: 
 ## Legacy / unused files
 
 - `assets/` holds the old HTML5 UP "Prologue" template (Sass, jQuery, Font Awesome). Nothing has referenced it since commit `74eae06`, and the deploy workflow doesn't publish it. Don't link to it from `index.html`. `LICENSE.txt` (CC BY 3.0) came with that template.
-- `index.html` uses only `atlantis_logo.png`, `flytrap.png`, `pbox.png`, `profile_pic.jpg`, `sticky.png` and `wbt_freq.png` from `images/`. The other images are leftovers, but they are still published because the workflow copies the whole directory. Anything in `docs/` gets published and can be indexed by Google, so keep only the current CV there.
+- `index.html` uses only `atlantis_logo.png`, `code_for_earth_final.jpg`, `flytrap.png`, `pbox.png`, `profile_pic.jpg`, `sticky.png`, `vinci_hackathon.jpg` and `wbt_freq.png` from `images/`. The other images are leftovers, but they are still published because the workflow copies the whole directory. Anything in `docs/` gets published and can be indexed by Google, so keep only the current CV there.
 - `.kilo/` contains Kilo Code agent worktrees. It is ignored via `.git/info/exclude`, so it is not part of the repo.
