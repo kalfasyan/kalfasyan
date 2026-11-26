@@ -110,9 +110,9 @@ Keywords: *Computer Vision, Hyperspectral Imaging, Image Processing, Satellite D
 
 <a href="https://spektrify.vercel.app"><img src="images/spektrify.jpg" alt="spektrify viewer" width="640"></a>
 
-**[`eu-civ`](https://github.com/kalfasyan/eu-civ)** - The EU as a Civilization-style hex map built from real public data · [live map](https://kalfasyan.github.io/eu-civ/)  
+**[`eu-civ`](https://github.com/kalfasyan/eu-civ)** - Europe as a Civilization-style hex map built from real public data · [live map](https://kalfasyan.github.io/eu-civ/)  
 ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/eu-civ?style=flat-square&logo=github)
-- 238 metro regions as cities, terrain from elevation and ESA WorldCover, yields from Eurostat (jobs, GDP, R&D). An EU adaptation of Andrej Karpathy's [usaciv](https://github.com/karpathy/usaciv) with a new Python data pipeline.
+- The EU plus the UK, Switzerland, Norway, Türkiye and the Western Balkans: 325 cities, terrain from elevation and ESA WorldCover, yields from Eurostat and the ONS (jobs, GDP, R&D). An EU adaptation of Andrej Karpathy's [usaciv](https://github.com/karpathy/usaciv) with a new Python data pipeline.
 
 <a href="https://kalfasyan.github.io/eu-civ/"><img src="images/eu_civ.jpg" alt="EU Civ map" width="640"></a>
 
