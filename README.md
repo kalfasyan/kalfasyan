@@ -102,7 +102,19 @@ Outside my day job, I build **[selfhostit](https://github.com/selfhostit)**, a g
 </details>
 
 ## 🌐 Open Source Projects
-Keywords: *Computer Vision, Image Processing, Satellite Data, Edge AI, CLI Tools, Web Development, DevOps, Python, Flask, NiceGUI, Solara, Streamlit*
+Keywords: *Computer Vision, Hyperspectral Imaging, Image Processing, Satellite Data, Edge AI, CLI Tools, Web Development, DevOps, Python, Flask, NiceGUI, Solara, Streamlit*
+
+**[`spektrify`](https://github.com/kalfasyan/spektrify)** - Browser viewer for multispectral and hyperspectral cubes · [online demo](https://spektrify.vercel.app)  
+![GitHub stars](https://img.shields.io/github/stars/kalfasyan/spektrify?style=flat-square&logo=github)
+- Scrub through bands, compare spectra, view the cube in 3D, run preprocessing (calibration, destriping, band alignment) and find sensor artefacts, with interactive lessons on spectral imaging.
+
+<a href="https://spektrify.vercel.app"><img src="images/spektrify.jpg" alt="spektrify viewer" width="640"></a>
+
+**[`eu-civ`](https://github.com/kalfasyan/eu-civ)** - The EU as a Civilization-style hex map built from real public data · [live map](https://kalfasyan.github.io/eu-civ/)  
+![GitHub stars](https://img.shields.io/github/stars/kalfasyan/eu-civ?style=flat-square&logo=github)
+- 238 metro regions as cities, terrain from elevation and ESA WorldCover, yields from Eurostat (jobs, GDP, R&D). An EU adaptation of Andrej Karpathy's [usaciv](https://github.com/karpathy/usaciv) with a new Python data pipeline.
+
+<a href="https://kalfasyan.github.io/eu-civ/"><img src="images/eu_civ.jpg" alt="EU Civ map" width="640"></a>
 
 **[`desto`](https://github.com/kalfasyan/desto)** - Web dashboard and CLI for managing scripts in tmux sessions  
 ![GitHub stars](https://img.shields.io/github/stars/kalfasyan/desto?style=flat-square&logo=github)  

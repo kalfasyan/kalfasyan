@@ -551,6 +551,13 @@
 
       /* ── OPEN SOURCE ─────────────────────────────────── */
       .oss-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+      .showcase-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-bottom: 1rem; }
+      .showcase { display: flex; flex-direction: column; }
+      .showcase .shot { display: block; margin: -0.25rem 0 0.9rem; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); background: #0b1220; }
+      .showcase .shot img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: top center; transition: transform 0.3s; }
+      .showcase .shot:hover img { transform: scale(1.02); }
+      .showcase p { flex: 1; font-size: 0.89rem; color: var(--text-2); line-height: 1.6; }
+      .showcase .link-row { margin-top: 0.6rem; }
       .repo { display: flex; flex-direction: column; color: inherit; transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s; }
       .repo:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-md); text-decoration: none; color: inherit; }
       .repo.featured { grid-row: span 2; background: linear-gradient(160deg, color-mix(in srgb, var(--accent) 9%, var(--surface)) 0%, var(--surface) 60%); border-color: color-mix(in srgb, var(--accent) 30%, var(--border)); }
@@ -730,7 +737,7 @@
         .hero-slides::before { inset: 10px -10px -10px 10px; border-radius: 20px; }
         .hero-photo img { border-radius: 20px; }
         .hero-cap { transform: translateX(calc(100% - 20px)); bottom: 6px; max-width: 170px; font-size: 0.72rem; }
-        .research-grid, .oss-grid, .skills-grid, .community, .ops-grid { grid-template-columns: 1fr; }
+        .research-grid, .oss-grid, .showcase-grid, .skills-grid, .community, .ops-grid { grid-template-columns: 1fr; }
         .sys img { width: 92px; height: 92px; }
         .pub { grid-template-columns: 1fr; gap: 0.25rem; padding: 1rem 1.05rem; }
         .contact { padding: 1.8rem 1.3rem; }
@@ -1396,7 +1403,36 @@
           <div class="section-head reveal" style="margin-top:3.5rem" id="open-source">
             <p class="kicker">Open source</p>
             <h2 class="section-title">Tools I build and maintain</h2>
-            <p class="section-sub">Python tools that came out of day-to-day research and engineering work.</p>
+            <p class="section-sub">Interactive projects built on real imaging and open data, plus Python tools that came out of day-to-day research and engineering work.</p>
+          </div>
+
+          <div class="showcase-grid">
+            <article class="card repo showcase reveal">
+              <a class="shot" href="https://spektrify.vercel.app" target="_blank" rel="noopener noreferrer"><img src="images/spektrify.jpg" alt="spektrify viewer showing one band of a hyperspectral cube, the channel strip and a pixel spectrum" width="1200" height="736" loading="lazy"></a>
+              <div class="repo-top">
+                <span class="repo-name"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-github"/></svg>spektrify</span>
+                <span class="stars" data-repo="kalfasyan/spektrify"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-star"/></svg><span>0</span></span>
+              </div>
+              <p>A fast, friendly browser viewer for multispectral and hyperspectral cubes: scrub through bands, compare spectra, view the cube in 3D, run preprocessing (calibration, destriping, band alignment) and find sensor artefacts, with interactive lessons on spectral imaging.</p>
+              <ul class="tags"><li class="tag">Hyperspectral</li><li class="tag">Python</li><li class="tag">Svelte</li><li class="tag">WebGL</li></ul>
+              <p class="link-row">
+                <a href="https://spektrify.vercel.app" target="_blank" rel="noopener noreferrer">Online demo<svg class="ico" aria-hidden="true"><use href="#i-ext"/></svg></a>
+                <a href="https://github.com/kalfasyan/spektrify" target="_blank" rel="noopener noreferrer"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-github"/></svg>kalfasyan/spektrify</a>
+              </p>
+            </article>
+            <article class="card repo showcase reveal">
+              <a class="shot" href="https://kalfasyan.github.io/eu-civ/" target="_blank" rel="noopener noreferrer"><img src="images/eu_civ.jpg" alt="EU Civ: a Civilization-style hex map of the European Union with cities, terrain and yields" width="1200" height="771" loading="lazy"></a>
+              <div class="repo-top">
+                <span class="repo-name"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-github"/></svg>eu-civ</span>
+                <span class="stars" data-repo="kalfasyan/eu-civ"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-star"/></svg><span>0</span></span>
+              </div>
+              <p>The European Union as a Civilization-style hex map built from real public data: 238 metro regions as cities, terrain from elevation and ESA WorldCover land cover, and yields from Eurostat (jobs, GDP, R&amp;D). An EU adaptation of Andrej Karpathy&rsquo;s usaciv, with a new Python data pipeline.</p>
+              <ul class="tags"><li class="tag">Eurostat</li><li class="tag">ESA WorldCover</li><li class="tag">GIS</li><li class="tag">JavaScript</li></ul>
+              <p class="link-row">
+                <a href="https://kalfasyan.github.io/eu-civ/" target="_blank" rel="noopener noreferrer">Live map<svg class="ico" aria-hidden="true"><use href="#i-ext"/></svg></a>
+                <a href="https://github.com/kalfasyan/eu-civ" target="_blank" rel="noopener noreferrer"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-github"/></svg>kalfasyan/eu-civ</a>
+              </p>
+            </article>
           </div>
 
           <div class="oss-grid">
